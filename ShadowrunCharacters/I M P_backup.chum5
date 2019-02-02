@@ -1127,19 +1127,19 @@ Events and such:
     <groups>
       <group>
         <karma>0</karma>
-        <base>5</base>
+        <base>1</base>
         <id>d79f31e6-b4ea-455f-85c8-efb1e5995f69</id>
         <name>Stealth</name>
       </group>
       <group>
         <karma>0</karma>
-        <base>0</base>
+        <base>1</base>
         <id>f08b426b-dc41-4842-ad2a-667d7528b6de</id>
         <name>Outdoors</name>
       </group>
       <group>
         <karma>0</karma>
-        <base>0</base>
+        <base>1</base>
         <id>b63f2bb4-dacf-4398-841b-256696916fec</id>
         <name>Influence</name>
       </group>
@@ -1151,7 +1151,7 @@ Events and such:
       </group>
       <group>
         <karma>0</karma>
-        <base>0</base>
+        <base>1</base>
         <id>bee3fde4-41e7-45af-bbff-2363a34ae675</id>
         <name>Engineering</name>
       </group>
@@ -1175,7 +1175,7 @@ Events and such:
       </group>
       <group>
         <karma>0</karma>
-        <base>0</base>
+        <base>1</base>
         <id>563337fe-1aa2-4801-9137-a94b7f93a4e8</id>
         <name>Biotech</name>
       </group>
@@ -1261,7 +1261,7 @@ Events and such:
   <martialarts />
   <limitmodifiers>
     <limitmodifier>
-      <guid>02bd8419-a3fd-4149-a8bf-c5e16bdcbc06</guid>
+      <guid>302a75e7-b5cb-4c32-8183-513538abf3d3</guid>
       <name>Math SPU</name>
       <limit>Mental</limit>
       <condition>Only for Scientific or Technical Knowledge Skills</condition>
@@ -1269,7 +1269,7 @@ Events and such:
       <notes />
     </limitmodifier>
     <limitmodifier>
-      <guid>6852c938-3e62-46d6-9930-b36764e7865e</guid>
+      <guid>8023307f-a67a-4acf-9a44-536f9b37f0ea</guid>
       <name>Vision Enhancement</name>
       <limit>Mental</limit>
       <condition>Only for Perception (Visual)</condition>
@@ -1277,7 +1277,7 @@ Events and such:
       <notes />
     </limitmodifier>
     <limitmodifier>
-      <guid>cd14d239-232b-40eb-a8f7-9fad6e913855</guid>
+      <guid>5a2095a3-e674-42c1-852d-66d5ff15a3b0</guid>
       <name>Vision Enhancement</name>
       <limit>Mental</limit>
       <condition>Only for Perception (Visual)</condition>
@@ -1285,7 +1285,7 @@ Events and such:
       <notes />
     </limitmodifier>
     <limitmodifier>
-      <guid>ba2abead-07ef-4217-9a4c-db6812563c0e</guid>
+      <guid>153bd019-45a3-4483-9010-310d6853c7cc</guid>
       <name>Vision Enhancement</name>
       <limit>Mental</limit>
       <condition>Only for Perception (Visual)</condition>
@@ -1293,7 +1293,7 @@ Events and such:
       <notes />
     </limitmodifier>
     <limitmodifier>
-      <guid>f8f0075b-d6ce-4217-bc5d-f3d63039ae2d</guid>
+      <guid>66878ccc-3048-4547-912d-85a09e1106de</guid>
       <name>Vision Enhancement</name>
       <limit>Mental</limit>
       <condition>Only for Perception (Visual)</condition>
@@ -1301,7 +1301,7 @@ Events and such:
       <notes />
     </limitmodifier>
     <limitmodifier>
-      <guid>a2d79e99-2978-42f4-a3d6-66eecc65c0aa</guid>
+      <guid>84e2f1b7-55d5-47d1-8b5e-c6af1b77ee55</guid>
       <name>Vision Enhancement</name>
       <limit>Mental</limit>
       <condition>Only for Perception (Visual)</condition>
@@ -1309,7 +1309,7 @@ Events and such:
       <notes />
     </limitmodifier>
     <limitmodifier>
-      <guid>cad17c15-9e7b-41fc-8a1c-4ffca13baeea</guid>
+      <guid>275e36f1-21f2-485a-8cd2-d519bb3ff215</guid>
       <name>Vision Enhancement</name>
       <limit>Mental</limit>
       <condition>Only for Perception (Visual)</condition>
@@ -1317,7 +1317,7 @@ Events and such:
       <notes />
     </limitmodifier>
     <limitmodifier>
-      <guid>6bebf18c-5528-418d-9f0d-dcd17c9007a7</guid>
+      <guid>db392ea2-107e-4ba2-9ae8-70b2e9f7c669</guid>
       <name>Vision Enhancement</name>
       <limit>Mental</limit>
       <condition>Only for Perception (Visual)</condition>
@@ -1325,7 +1325,7 @@ Events and such:
       <notes />
     </limitmodifier>
     <limitmodifier>
-      <guid>8524813c-3172-4511-8d03-0bca4650f37c</guid>
+      <guid>6ef49421-854d-44c5-8002-ba341f5a21cb</guid>
       <name>Vision Enhancement</name>
       <limit>Mental</limit>
       <condition>Only for Perception (Visual)</condition>
@@ -1333,7 +1333,7 @@ Events and such:
       <notes />
     </limitmodifier>
     <limitmodifier>
-      <guid>9a17bedf-b647-4475-a0ab-f6e6d18101bf</guid>
+      <guid>e6f04376-b604-473f-bb82-edbc3fad881b</guid>
       <name>Chameleon Suit</name>
       <limit>Physical</limit>
       <condition>Only for Sneaking, Must be visible</condition>
@@ -1341,7 +1341,7 @@ Events and such:
       <notes />
     </limitmodifier>
     <limitmodifier>
-      <guid>38e0dded-fed4-4b50-95c7-efdbedadb37b</guid>
+      <guid>d6951664-3bb8-47b6-9dea-05a19d9f78d3</guid>
       <name>Ballistic Mask</name>
       <limit>Social</limit>
       <condition>Only for Intimidation, Must be visible</condition>
@@ -1349,7 +1349,7 @@ Events and such:
       <notes />
     </limitmodifier>
     <limitmodifier>
-      <guid>bca320bd-a7f0-44fc-a3e2-24e4f8ec2f48</guid>
+      <guid>7bb96ea4-a15a-43a4-9f86-14f2f055cba3</guid>
       <name>Audio Enhancement</name>
       <limit>Mental</limit>
       <condition>Only for Perception (Hearing)</condition>
@@ -1357,7 +1357,7 @@ Events and such:
       <notes />
     </limitmodifier>
     <limitmodifier>
-      <guid>cef46d80-eaf9-4c93-b086-a5ad6ec97578</guid>
+      <guid>6c8e17d2-dc53-4c52-8cf7-b2a7d0b5b711</guid>
       <name>Audio Enhancement</name>
       <limit>Mental</limit>
       <condition>Only for Perception (Hearing)</condition>
@@ -1365,7 +1365,7 @@ Events and such:
       <notes />
     </limitmodifier>
     <limitmodifier>
-      <guid>5523d3c9-2bab-4077-be0c-9a0f5cc68898</guid>
+      <guid>e973a073-74a8-4c92-ae5c-7ec9658efd59</guid>
       <name>Vision Enhancement</name>
       <limit>Mental</limit>
       <condition>Only for Perception (Visual)</condition>
@@ -1373,7 +1373,7 @@ Events and such:
       <notes />
     </limitmodifier>
     <limitmodifier>
-      <guid>e9f53936-95d5-4bc4-a0b9-fa936236e943</guid>
+      <guid>fa67cd7b-fd7f-4751-b168-1b2e6498e4ee</guid>
       <name>Autopicker</name>
       <limit>Physical</limit>
       <condition>Only for picking mechanical locks</condition>
@@ -3896,8 +3896,10 @@ This program overrides the Matrix’s protocols for icons. While this program is
       <bonded>False</bonded>
       <equipped>True</equipped>
       <wirelesson>False</wirelesson>
-      <bonus />
-      <wirelessbonus />
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
       <source>SR5</source>
       <page>451</page>
       <canformpersona />
@@ -11078,7 +11080,8 @@ The Track program keeps an eye on your targets for you, making it easier to find
       <bonus>
         <selectskill />
       </bonus>
-      <wirelessbonus />
+      <wirelessbonus>
+      </wirelessbonus>
       <source>SR5</source>
       <page>443</page>
       <canformpersona />
@@ -11126,8 +11129,10 @@ The Track program keeps an eye on your targets for you, making it easier to find
       <bonded>False</bonded>
       <equipped>True</equipped>
       <wirelesson>False</wirelesson>
-      <bonus />
-      <wirelessbonus />
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
       <source>RF</source>
       <page>254</page>
       <canformpersona />
