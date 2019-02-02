@@ -1,0 +1,1303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<character>
+	<createdversion>5.191.27</createdversion>
+	<appversion>5.191.27</appversion>
+	<gameedition>SR5</gameedition>
+	<settings>default.xml</settings>
+	<metatype>Elf</metatype>
+	<metatypebp>0</metatypebp>
+	<metavariant />
+	<metatypecategory>Metahuman</metatypecategory>
+	<metageneticlimit>0</metageneticlimit>
+	<movement />
+	<walk>2/1/0</walk>
+	<run>4/0/0</run>
+	<sprint>2/1/0</sprint>
+	<prioritymetatype>D,1</prioritymetatype>
+	<priorityattributes>A,4</priorityattributes>
+	<priorityspecial>C,2</priorityspecial>
+	<priorityskills>B,3</priorityskills>
+	<priorityresources>E,0</priorityresources>
+	<prioritytalent>Magician</prioritytalent>
+	<priorityskill1>Aeronautics Mechanic</priorityskill1>
+	<priorityskill2>Arcana</priorityskill2>
+	<priorityskillgroup />
+	<essenceatspecialstart>6.0</essenceatspecialstart>
+	<name />
+	<mainmugshotindex>0</mainmugshotindex>
+	<mugshots />
+	<sex />
+	<age />
+	<eyes />
+	<height />
+	<weight />
+	<skin />
+	<hair />
+	<description />
+	<background />
+	<concept />
+	<notes />
+	<alias>AlchemistEnchanter</alias>
+	<playername />
+	<gamenotes />
+	<primaryarm>Right</primaryarm>
+	<karma>5</karma>
+	<totalkarma>0</totalkarma>
+	<special>0</special>
+	<totalspecial>0</totalspecial>
+	<totalattributes>24</totalattributes>
+	<contactpoints>9</contactpoints>
+	<contactpointsused>9</contactpointsused>
+	<spelllimit>5</spelllimit>
+	<cfplimit>0</cfplimit>
+	<ainormalprogramlimit>0</ainormalprogramlimit>
+	<aiadvancedprogramlimit>0</aiadvancedprogramlimit>
+	<streetcred>0</streetcred>
+	<notoriety>0</notoriety>
+	<publicawareness>0</publicawareness>
+	<burntstreetcred>0</burntstreetcred>
+	<created>False</created>
+	<maxavail>12</maxavail>
+	<nuyen>4645</nuyen>
+	<startingnuyen>6000</startingnuyen>
+	<adeptwaydiscount>0</adeptwaydiscount>
+	<sumtoten>10</sumtoten>
+	<bp>0</bp>
+	<buildkarma>25</buildkarma>
+	<buildmethod>Priority</buildmethod>
+	<gameplayoption>Standard</gameplayoption>
+	<gameplayoptionqualitylimit>25</gameplayoptionqualitylimit>
+	<maxnuyen>10</maxnuyen>
+	<maxkarma>25</maxkarma>
+	<contactmultiplier>3</contactmultiplier>
+	<nuyenbp>0</nuyenbp>
+	<nuyenmaxbp>10</nuyenmaxbp>
+	<adept>False</adept>
+	<magician>True</magician>
+	<technomancer>False</technomancer>
+	<ai>False</ai>
+	<cyberwaredisabled>False</cyberwaredisabled>
+	<initiationoverride>False</initiationoverride>
+	<critter>False</critter>
+	<friendsinhighplaces>False</friendsinhighplaces>
+	<prototypetranshuman>0</prototypetranshuman>
+	<blackmarketdiscount>False</blackmarketdiscount>
+	<excon>False</excon>
+	<trustfund>0</trustfund>
+	<restrictedgear>False</restrictedgear>
+	<overclocker>False</overclocker>
+	<mademan>False</mademan>
+	<lightningreflexes>False</lightningreflexes>
+	<fame>False</fame>
+	<bornrich>False</bornrich>
+	<erased>False</erased>
+	<attributes>
+		<attribute>
+			<name>BOD</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>4</value>
+			<base>4</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>4</totalvalue>
+		</attribute>
+		<attribute>
+			<name>AGI</name>
+			<metatypemin>2</metatypemin>
+			<metatypemax>7</metatypemax>
+			<metatypeaugmax>11</metatypeaugmax>
+			<value>7</value>
+			<base>7</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>7</totalvalue>
+		</attribute>
+		<attribute>
+			<name>REA</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>5</value>
+			<base>5</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>5</totalvalue>
+		</attribute>
+		<attribute>
+			<name>STR</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>2</value>
+			<base>2</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>2</totalvalue>
+		</attribute>
+		<attribute>
+			<name>CHA</name>
+			<metatypemin>3</metatypemin>
+			<metatypemax>8</metatypemax>
+			<metatypeaugmax>12</metatypeaugmax>
+			<value>3</value>
+			<base>3</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>3</totalvalue>
+		</attribute>
+		<attribute>
+			<name>INT</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>4</value>
+			<base>4</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>4</totalvalue>
+		</attribute>
+		<attribute>
+			<name>LOG</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>5</value>
+			<base>5</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>5</totalvalue>
+		</attribute>
+		<attribute>
+			<name>WIL</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>5</value>
+			<base>5</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>5</totalvalue>
+		</attribute>
+		<attribute>
+			<name>EDG</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>6</metatypeaugmax>
+			<value>1</value>
+			<base>1</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>1</totalvalue>
+		</attribute>
+		<attribute>
+			<name>MAG</name>
+			<metatypemin>3</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>6</metatypeaugmax>
+			<value>4</value>
+			<base>3</base>
+			<karma>1</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>4</totalvalue>
+		</attribute>
+		<attribute>
+			<name>RES</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>6</metatypeaugmax>
+			<value>1</value>
+			<base>1</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>1</totalvalue>
+		</attribute>
+		<attribute>
+			<name>ESS</name>
+			<metatypemin>0</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>6</metatypeaugmax>
+			<value>0</value>
+			<base>0</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>1</totalvalue>
+		</attribute>
+		<attribute>
+			<name>DEP</name>
+			<metatypemin>0</metatypemin>
+			<metatypemax>0</metatypemax>
+			<metatypeaugmax>0</metatypeaugmax>
+			<value>0</value>
+			<base>0</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>0</totalvalue>
+		</attribute>
+	</attributes>
+	<magenabled>True</magenabled>
+	<initiategrade>0</initiategrade>
+	<resenabled>False</resenabled>
+	<submersiongrade>0</submersiongrade>
+	<depenabled>False</depenabled>
+	<groupmember>False</groupmember>
+	<groupname />
+	<groupnotes />
+	<totaless>6</totaless>
+	<tradition>Hermetic</tradition>
+	<traditiondrain />
+	<traditionname />
+	<spiritcombat />
+	<spiritdetection />
+	<spirithealth />
+	<spiritillusion />
+	<spiritmanipulation />
+	<stream>Default</stream>
+	<streamdrain>RES + WIL</streamdrain>
+	<physicalcmfilled>0</physicalcmfilled>
+	<stuncmfilled>0</stuncmfilled>
+	<newskills>
+		<skillptsmax>36</skillptsmax>
+		<skillgrpsmax>5</skillgrpsmax>
+		<uneducated>False</uneducated>
+		<uncouth>False</uncouth>
+		<schoolofhardknocks>False</schoolofhardknocks>
+		<collegeeducation>False</collegeeducation>
+		<jackofalltrades>False</jackofalltrades>
+		<techschool>False</techschool>
+		<linguist>False</linguist>
+		<skills>
+			<skill>
+				<guid>447b91fe-b152-443b-b5ed-e76bcceb1fd8</guid>
+				<suid>b52f7575-eebf-41c4-938d-df3397b5ee68</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>36092391-51f1-482c-8674-8b53feda3d13</guid>
+				<suid>fc89344f-daa6-438e-b61d-23f10dd13e44</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>6695a448-eed4-4964-a0e4-090ae013543d</guid>
+				<suid>e09e5aa7-e496-41a2-97ce-17f577361888</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>b515f863-4f09-448f-bacd-fde803332628</guid>
+				<suid>74a68a9e-8c5b-4998-8dbb-08c1e768afc3</suid>
+				<karma>0</karma>
+				<base>6</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>2ad0dddb-9676-4988-97e8-9bb4c6ced357</guid>
+				<suid>1537ca5c-fa93-4c05-b073-a2a0eed91b8e</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>1ece9755-a3ef-4dc4-b6fa-f3aa0daa970a</guid>
+				<suid>ada6d9b2-e451-4289-be45-7085fa34a51a</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>67e1b355-7983-4e9b-b0f0-64e3e1a21a3f</guid>
+				<suid>955d9376-3066-469d-8670-5170c1d59020</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>e920e583-cd08-4848-af51-6280f068bfa4</guid>
+				<suid>2f4c706f-5ac5-4774-8a45-3b4667989a20</suid>
+				<karma>0</karma>
+				<base>5</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>f9d86f59-88cd-40af-8bd2-92d0d7c2467e</guid>
+				<suid>59318078-e071-411b-9194-7222560e9f4a</suid>
+				<karma>0</karma>
+				<base>1</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>e4bdc4d1-8f55-42fb-b360-7b89cf3527d1</guid>
+				<suid>b7599a42-ceed-4558-b357-865aa3e317f5</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>5fabf143-8bea-437b-8a79-d0c26f153d62</guid>
+				<suid>788b387b-ee41-4e6a-bf22-481a8cc4cf9f</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>0375fef1-b2c0-45db-a1a9-84af2fec3808</guid>
+				<suid>5e5f2f7f-f63b-4f65-a65d-91b3d4523c6f</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>f32bf844-7e51-4f82-a592-fb9775aa47ef</guid>
+				<suid>9a2d9175-d445-45ca-842d-90223ad13f05</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>25510d8f-522e-4e43-bfb1-bae534ed96ec</guid>
+				<suid>dfba7c09-3d95-43fd-be75-39b3e8b22cd3</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>1d46b9be-2299-4802-8c65-2020dc2cbc08</guid>
+				<suid>ba624682-a5c0-4cf5-b47b-1021e6a1800d</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>73aafa44-9757-44ef-9ee1-624c797090be</guid>
+				<suid>48763fa5-4b89-48c7-80ff-d0a2761de4c0</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>8009b31d-dff4-440e-bf6e-bbc71b0b8da2</guid>
+				<suid>bd4d977a-cbd4-4289-99bb-896caed6786a</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>dea45666-9407-4884-bd49-2f9b91efa252</guid>
+				<suid>cd9f6bf7-fa48-464b-9a8f-c7ce26713a72</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>952d87a5-33c3-481c-a538-cd292cc86e89</guid>
+				<suid>1c14bf0d-cc69-4126-9a95-1f2429c11aa5</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>33193ea9-d2d9-4899-9336-900d566d2719</guid>
+				<suid>6d7f48d3-84a1-4fce-90d3-58d566f70fa6</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>6123314b-f5fd-400c-9d50-44ab42c43ebe</guid>
+				<suid>3db81bcc-264b-47e1-847c-06bdacd88973</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>60bf7e01-39b6-43e4-86e4-b411ec0e3214</guid>
+				<suid>7143f979-aa48-4cc8-a29c-e010400e6e11</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>4f87b0c4-2d24-4136-aaae-17d98cac3ef4</guid>
+				<suid>9b386fe5-83b3-436f-9035-efd1c0f7a680</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>29c6bf36-b398-4def-88f5-de7161335e5e</guid>
+				<suid>276877e1-5cdf-4e95-befd-13c1abb5ae02</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>3f3cdd6e-83c8-4256-bf62-8132b7219fd2</guid>
+				<suid>a9d9b686-bc4a-4347-b011-ff8f41455965</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>0a2df6cf-5e57-41de-bc0c-79eb52cc8c85</guid>
+				<suid>9b2416b2-3e2b-4dd6-ab9d-530f493c1c22</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>51bf9f98-67e2-4873-be51-79885aa52af9</guid>
+				<suid>23c3320c-5010-4b2e-ac46-76f0a86af0b9</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>c9232926-8bc9-4530-b59f-6ce62c003c1b</guid>
+				<suid>2c8e5f20-e52d-4844-89e9-51b92dba47df</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>c3b5eb68-acc1-4665-ba50-45cb584a7182</guid>
+				<suid>3f93335c-49d6-4904-a97e-4c942ab05b59</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>311748e6-73f5-478e-aabc-2706cc3cfce0</guid>
+				<suid>b20acd11-f102-40f3-a641-e3c420fbdb91</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>3a447fe6-2afc-4475-9a59-5d561c0e170e</guid>
+				<suid>47cb1e8b-c285-4c54-9aaa-75305ad6dd4f</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>e6f62da4-9239-4355-b4b2-d781b9df7413</guid>
+				<suid>27db6e2a-a49f-4232-b150-e676b8dacb52</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>d817ec92-f0bb-4386-861c-67b500ea7c0f</guid>
+				<suid>c9f52f97-a284-44a7-8af6-802dd3ed554f</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>86eb6549-f03d-450f-b791-94e14193a4e0</guid>
+				<suid>f510ccc3-cf95-4461-b2f7-e966daaa5a91</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>d52ac6fa-e526-443d-a6f7-5cc02cce6bd8</guid>
+				<suid>58452cff-44ea-41c6-a554-28a869149b27</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>b9c8d6ec-899d-442a-94e1-07cc34496e92</guid>
+				<suid>a9fa961d-07e5-46da-8edc-403ae3e6cc75</suid>
+				<karma>0</karma>
+				<base>1</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>c2b4339b-b262-4e0f-9e32-c44cefce89e2</guid>
+				<suid>c2bb65f5-4a6b-49bf-9925-ef6434cb6929</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>2ee13f37-dc5a-4099-9e5a-4e3be288f19f</guid>
+				<suid>41e184e0-7273-403a-9300-fa29a1707bf0</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>0aae83a9-bd28-46af-bcc4-f97711f94c4e</guid>
+				<suid>64841e6e-9487-4b63-80a1-dcad6eb78179</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>47ea5ece-2b5e-48aa-ae38-8c4ec471c01d</guid>
+				<suid>e7e5a43f-9762-4863-86dc-3fd7799e53a2</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>1a54dca6-283c-4551-b6e6-6a55a00afe89</guid>
+				<suid>935621c5-d384-42f2-a740-1fa349fa85a1</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>bd166cc5-4f48-4e0b-ba00-3a646f51c024</guid>
+				<suid>3b34b209-00be-42b8-b4ac-cc7dea08af8a</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>718e0242-10f9-49e9-b015-d83ef232618d</guid>
+				<suid>9de43fad-b365-4e73-bc06-91dd571b858a</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>bdc4bc34-e9cf-48d7-904e-e039ac446515</guid>
+				<suid>963a548d-c629-4a13-a3e3-31b085a42e20</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>7df4b608-4725-431d-ac7d-abb363a51202</guid>
+				<suid>09fbc992-9fad-4f2d-ab56-725bac943dc6</suid>
+				<karma>0</karma>
+				<base>1</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>a7569a30-b574-48cb-856c-5dc1fd76aa49</guid>
+				<suid>64088b25-de37-4d71-8800-4a430fde08af</suid>
+				<karma>0</karma>
+				<base>6</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>626e7c77-577a-4faf-b6f5-22dbbab43e4b</guid>
+				<suid>938be691-4b3d-49a2-a673-bbf9924ce8f0</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>6d44e4f8-d5f1-49b7-bf50-0c5835a2eda4</guid>
+				<suid>48cc79be-f75e-4fe6-8721-7864c9f231f6</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>6d0fb48e-e639-40e1-85b1-d9fe94cf74f5</guid>
+				<suid>f8037e7f-d48b-452b-8f66-2e0c36677fea</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>db8b4882-6a74-424d-aae5-04f25a23a40e</guid>
+				<suid>729c9cee-ef8f-492d-aa7f-17ec1bc3816e</suid>
+				<karma>0</karma>
+				<base>2</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>24fe605c-5f77-46ef-bc3f-2054bd1026c5</guid>
+				<suid>17fbaafa-8dbb-4f29-9244-5ae1cd4ac42f</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>fac0273a-0b95-447b-a235-f784e9053fb8</guid>
+				<suid>04e1eb3e-e82d-485b-a7fd-1e677df2a070</suid>
+				<karma>0</karma>
+				<base>2</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>f2c83e7e-ff28-42b5-a79f-f923c29e3a6b</guid>
+				<suid>53f96d6a-363b-4c14-be1d-68e74930c67b</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>319dee31-4f6b-4335-b813-46d8661ab2e5</guid>
+				<suid>3ba9397e-f790-44ca-ae40-15a2356e348d</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>cb998a82-51dc-4908-acee-c95aa33b536b</guid>
+				<suid>10d5c887-a1e5-4cca-8613-3a28f1aab810</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>38b0adc3-dd7b-440c-ba14-956e30d240b1</guid>
+				<suid>ae91a8a6-80e7-4f52-b9eb-21725a5528a4</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>07947e64-7852-4224-bcee-f853522daf46</guid>
+				<suid>b8a24d87-465a-4365-9948-038fe1ac62c4</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>d295ebcf-31b5-48a2-abec-0fe1582bf9df</guid>
+				<suid>1579818e-af85-47cd-8c9f-2e86e9dc19da</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>993edb85-be4d-4b6b-b08e-9404da6c564b</guid>
+				<suid>adf31a50-b228-4e09-a09c-46ab9f5e59a1</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>ea200eea-67ad-4635-94cc-5e7c87911ed8</guid>
+				<suid>a6287e62-6a3b-43ce-b6e0-20f3655910e2</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>99293ff5-17b9-44bf-91e6-a6cf76cd40cd</guid>
+				<suid>1531b2d8-6116-4be4-87b0-232dba1fc447</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>34d591b4-ff99-4c2c-8757-2a6a9db3c126</guid>
+				<suid>9cff9aa7-d092-4f89-8b7b-3ab835818874</suid>
+				<karma>0</karma>
+				<base>1</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>60c64552-22be-4c84-a0aa-a9dd13af66d8</guid>
+				<suid>b693f3bf-48dc-4570-9743-d94d14ee698b</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>970ed151-d4ad-49c9-9692-7f452f7bf3ac</guid>
+				<suid>c4367a39-4065-4b1d-aa62-e9dce377e452</suid>
+				<karma>0</karma>
+				<base>6</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>3941b5b8-2632-4e4c-a998-0bfc0172ef3d</guid>
+				<suid>51e34c6c-b07f-45f4-8a5e-8f2b617ed32f</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>db066a73-4aa1-4814-a622-53f5c05f7a26</guid>
+				<suid>89ee1730-053a-400f-a13a-4fbadae015f0</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>9a5960c7-fa9a-4309-a88f-22627e24b65c</guid>
+				<suid>0dbcb9cd-f824-4b5d-a387-90d33318b04c</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>0ed19e7e-7853-436c-a2dc-1e75321a556e</guid>
+				<suid>867a6fa0-7d98-4cde-83a4-b33dd39de08e</suid>
+				<karma>0</karma>
+				<base>4</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>9702c4b4-0ca2-4612-a214-73dad065a584</guid>
+				<suid>7ed2f3e0-a791-4cb7-ba3e-ac785fdc3d7e</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>14f1e9ca-e9c6-486e-911a-9c604c521056</guid>
+				<suid>4fcd40cb-4b02-4b7e-afcb-f44d46cd5706</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+		</skills>
+		<knoskills />
+		<skilljackknowledgeskills />
+		<groups>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>1ccd08fe-75a3-4138-a2c8-5fa6f73dcf76</id>
+				<name>Stealth</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>ad7cb888-943b-4c9b-b09f-c00d160a9a08</id>
+				<name>Sorcery</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>4bd9166a-0df0-409c-9cc2-acb95d010e1d</id>
+				<name>Outdoors</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>48dcb3b2-d298-4896-ab36-46d83e69f299</id>
+				<name>Influence</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>571ce68e-fa1c-4a8c-99ce-2121b1cd5d22</id>
+				<name>Firearms</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>b4a63d3c-c523-485d-85b7-dddc9b347581</id>
+				<name>Engineering</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>5</base>
+				<id>2c9ff5af-6598-47c4-8a67-fc254eaed628</id>
+				<name>Enchanting</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>ac00928e-6d8f-4715-aefa-5966382e5d10</id>
+				<name>Electronics</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>516a2a9d-0127-45fb-bff1-804a46eca44c</id>
+				<name>Cracking</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>abd3a0be-7b39-4b3e-a5fa-34a3b451e607</id>
+				<name>Conjuring</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>a27fcc38-f60f-4b52-86a9-eaf8e1c6031e</id>
+				<name>Close Combat</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>f6e74442-819b-4f73-9c6f-53daf9571d16</id>
+				<name>Biotech</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>c5b786e0-8e34-468d-8c28-d76a9f196beb</id>
+				<name>Athletics</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>23289748-255e-461c-acf7-e46e8599a826</id>
+				<name>Acting</name>
+			</group>
+		</groups>
+	</newskills>
+	<contacts />
+	<spells>
+		<spell>
+			<guid>e7b9aeb2-f50d-49ea-8375-54f127860d8c</guid>
+			<name>Clairvoyance</name>
+			<descriptors>Passive, Directional</descriptors>
+			<category>Detection</category>
+			<type>M</type>
+			<range>T</range>
+			<damage>0</damage>
+			<duration>S</duration>
+			<dv>F-3</dv>
+			<limited>False</limited>
+			<extended>False</extended>
+			<alchemical>True</alchemical>
+			<source>SR5</source>
+			<page>286</page>
+			<extra />
+			<notes />
+			<improvementsource>Spell</improvementsource>
+			<grade>0</grade>
+		</spell>
+		<spell>
+			<guid>c660c73d-8b8c-4b3e-b979-bb1a0352584b</guid>
+			<name>Mass Confusion</name>
+			<descriptors>Realistic, Multi-Sense, Area</descriptors>
+			<category>Illusion</category>
+			<type>M</type>
+			<range>LOS (A)</range>
+			<damage>0</damage>
+			<duration>S</duration>
+			<dv>F-1</dv>
+			<limited>False</limited>
+			<extended>False</extended>
+			<alchemical>True</alchemical>
+			<source>SR5</source>
+			<page>290</page>
+			<extra />
+			<notes />
+			<improvementsource>Spell</improvementsource>
+			<grade>0</grade>
+		</spell>
+		<spell>
+			<guid>9a826a0d-75ee-411c-8784-39dff2906bf8</guid>
+			<name>Improved Invisibility</name>
+			<descriptors>Realistic, Single-Sense</descriptors>
+			<category>Illusion</category>
+			<type>P</type>
+			<range>LOS</range>
+			<damage>0</damage>
+			<duration>S</duration>
+			<dv>F-1</dv>
+			<limited>False</limited>
+			<extended>False</extended>
+			<alchemical>True</alchemical>
+			<source>SR5</source>
+			<page>291</page>
+			<extra />
+			<notes />
+			<improvementsource>Spell</improvementsource>
+			<grade>0</grade>
+		</spell>
+		<spell>
+			<guid>d9bfef37-34f5-4c4a-89f1-fe663632aaec</guid>
+			<name>Heal</name>
+			<descriptors>Essence</descriptors>
+			<category>Health</category>
+			<type>M</type>
+			<range>T</range>
+			<damage>0</damage>
+			<duration>P</duration>
+			<dv>F-4</dv>
+			<limited>False</limited>
+			<extended>False</extended>
+			<alchemical>True</alchemical>
+			<source>SR5</source>
+			<page>288</page>
+			<extra />
+			<notes />
+			<improvementsource>Spell</improvementsource>
+			<grade>0</grade>
+		</spell>
+		<spell>
+			<guid>c70b667e-08af-4bb1-9e16-8b2bd0ba4268</guid>
+			<name>Ball Lightning</name>
+			<descriptors>Indirect, Elemental, Area</descriptors>
+			<category>Combat</category>
+			<type>P</type>
+			<range>LOS (A)</range>
+			<damage>P</damage>
+			<duration>I</duration>
+			<dv>F-1</dv>
+			<limited>False</limited>
+			<extended>False</extended>
+			<alchemical>True</alchemical>
+			<source>SR5</source>
+			<page>284</page>
+			<extra />
+			<notes />
+			<improvementsource>Spell</improvementsource>
+			<grade>0</grade>
+		</spell>
+	</spells>
+	<foci />
+	<stackedfoci />
+	<powers />
+	<spirits />
+	<complexforms />
+	<aiprograms />
+	<martialarts />
+	<martialartmaneuvers />
+	<limitmodifiers />
+	<armors />
+	<weapons>
+		<weapon>
+			<guid>5c3f2ffc-a903-460e-9bfb-95abcfe47095</guid>
+			<name>Unarmed Attack</name>
+			<category>Unarmed</category>
+			<type>Melee</type>
+			<spec />
+			<spec2 />
+			<reach>0</reach>
+			<damage>(STR)S</damage>
+			<ap>-</ap>
+			<mode>0</mode>
+			<rc>0</rc>
+			<ammo>0</ammo>
+			<cyberware>False</cyberware>
+			<ammocategory />
+			<clips />
+			<conceal>0</conceal>
+			<avail>0</avail>
+			<cost>0</cost>
+			<useskill />
+			<range />
+			<rangemultiply>1</rangemultiply>
+			<fullburst>10</fullburst>
+			<suppressive>20</suppressive>
+			<source>SR5</source>
+			<page>132</page>
+			<weaponname />
+			<included>False</included>
+			<installed>True</installed>
+			<requireammo>True</requireammo>
+			<accuracy>Physical</accuracy>
+			<location />
+			<notes />
+			<discountedcost>False</discountedcost>
+		</weapon>
+		<weapon>
+			<guid>cbe0a48c-b1d7-4466-a19e-8919cbf76cc0</guid>
+			<name>Bow (Rating 9)</name>
+			<category>Bows</category>
+			<type>Ranged</type>
+			<spec>Bow</spec>
+			<spec2 />
+			<reach>0</reach>
+			<damage>11P</damage>
+			<ap>-2</ap>
+			<mode>SS</mode>
+			<rc>0</rc>
+			<ammo>1</ammo>
+			<cyberware>False</cyberware>
+			<ammocategory />
+			<clips />
+			<conceal>8</conceal>
+			<avail>9</avail>
+			<cost>900</cost>
+			<useskill>Archery</useskill>
+			<range />
+			<rangemultiply>1</rangemultiply>
+			<fullburst>10</fullburst>
+			<suppressive>20</suppressive>
+			<source>SR5</source>
+			<page>423</page>
+			<weaponname />
+			<included>False</included>
+			<installed>True</installed>
+			<requireammo>True</requireammo>
+			<accuracy>6</accuracy>
+			<location />
+			<notes />
+			<discountedcost>False</discountedcost>
+		</weapon>
+		<weapon>
+			<guid>81904b0b-8e9c-48ee-a404-55621fa50368</guid>
+			<name>Staff</name>
+			<category>Clubs</category>
+			<type>Melee</type>
+			<spec>Staves</spec>
+			<spec2 />
+			<reach>2</reach>
+			<damage>(STR+3)P</damage>
+			<ap>-</ap>
+			<mode>0</mode>
+			<rc>0</rc>
+			<ammo>0</ammo>
+			<cyberware>False</cyberware>
+			<ammocategory />
+			<clips />
+			<conceal>10</conceal>
+			<avail>3</avail>
+			<cost>100</cost>
+			<useskill />
+			<range />
+			<rangemultiply>1</rangemultiply>
+			<fullburst>10</fullburst>
+			<suppressive>20</suppressive>
+			<source>SR5</source>
+			<page>422</page>
+			<weaponname />
+			<included>False</included>
+			<installed>True</installed>
+			<requireammo>True</requireammo>
+			<accuracy>6</accuracy>
+			<location />
+			<notes />
+			<discountedcost>False</discountedcost>
+		</weapon>
+	</weapons>
+	<cyberwares />
+	<qualities>
+		<quality>
+			<guid>360047a0-8ff9-4092-b58c-8b8d0e76355d</guid>
+			<name>Low-Light Vision</name>
+			<extra />
+			<bp>0</bp>
+			<implemented>True</implemented>
+			<contributetolimit>False</contributetolimit>
+			<metagenetic />
+			<print>True</print>
+			<qualitytype>Positive</qualitytype>
+			<qualitysource>Metatype</qualitysource>
+			<source>SR5</source>
+			<page>66</page><bonus></bonus><notes /><id>8ec5c9bb-aeb9-42f2-a436-a60f764adfe4</id></quality>
+		<quality>
+			<guid>4a66c097-7115-4ed0-a9b0-e91ec138b362</guid>
+			<name>Magician</name>
+			<extra />
+			<bp>30</bp>
+			<implemented>True</implemented>
+			<contributetolimit>False</contributetolimit>
+			<metagenetic />
+			<print>True</print>
+			<qualitytype>Positive</qualitytype>
+			<qualitysource>Metatype</qualitysource>
+			<source>SR5</source>
+			<page>69</page><bonus></bonus><notes /><id>0e741331-d776-4be8-abc5-4101228abdef</id></quality>
+	</qualities>
+	<lifestyles />
+	<gears>
+		<gear>
+			<guid>2187e77b-c9ad-4ac2-89ab-25dcf56a1cf9</guid>
+			<name>Arrow: Standard</name>
+			<category>Ammunition</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>10</maxrating>
+			<rating>1</rating>
+			<qty>50</qty>
+			<avail>Rating</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>Rating * 2</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra>Bows</extra>
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>423</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>6b293120-4f2a-42ac-8ba2-0982711c1b1a</guid>
+			<name>Arrow: Explosive Head</name>
+			<category>Ammunition</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>10</maxrating>
+			<rating>1</rating>
+			<qty>15</qty>
+			<avail>(Rating)F</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>(Rating * 2) + 15</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra>Bows</extra>
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><weaponbonus><accuracy>-1</accuracy><ap>-1</ap><damage>2</damage></weaponbonus><source>RG</source><page>23</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
+	</gears>
+	<vehicles />
+	<metamagics />
+	<arts />
+	<enhancements />
+	<critterpowers />
+	<initiationgrades />
+	<improvements>
+		<improvement>
+			<unique>enabletab</unique>
+			<target />
+			<improvedname>Magician</improvedname>
+			<sourcename>4a66c097-7115-4ed0-a9b0-e91ec138b362</sourcename>
+			<min>0</min>
+			<max>0</max>
+			<aug>0</aug>
+			<augmax>0</augmax>
+			<val>0</val>
+			<rating>0</rating>
+			<exclude />
+			<improvementttype>SpecialTab</improvementttype>
+			<improvementsource>Quality</improvementsource>
+			<custom>False</custom>
+			<customname />
+			<customid />
+			<customgroup />
+			<addtorating>False</addtorating>
+			<enabled>True</enabled>
+			<order>0</order>
+			<notes />
+		</improvement>
+		<improvement>
+			<unique>enableattribute</unique>
+			<target />
+			<improvedname>MAG</improvedname>
+			<sourcename>4a66c097-7115-4ed0-a9b0-e91ec138b362</sourcename>
+			<min>0</min>
+			<max>0</max>
+			<aug>0</aug>
+			<augmax>0</augmax>
+			<val>0</val>
+			<rating>0</rating>
+			<exclude />
+			<improvementttype>Attribute</improvementttype>
+			<improvementsource>Quality</improvementsource>
+			<custom>False</custom>
+			<customname />
+			<customid />
+			<customgroup />
+			<addtorating>False</addtorating>
+			<enabled>True</enabled>
+			<order>0</order>
+			<notes />
+		</improvement>
+		<improvement>
+			<target />
+			<improvedname>Magician</improvedname>
+			<sourcename>4a66c097-7115-4ed0-a9b0-e91ec138b362</sourcename>
+			<min>0</min>
+			<max>0</max>
+			<aug>0</aug>
+			<augmax>0</augmax>
+			<val>0</val>
+			<rating>1</rating>
+			<exclude />
+			<improvementttype>SpecialSkills</improvementttype>
+			<improvementsource>Quality</improvementsource>
+			<custom>False</custom>
+			<customname />
+			<customid />
+			<customgroup />
+			<addtorating>False</addtorating>
+			<enabled>True</enabled>
+			<order>0</order>
+			<notes />
+		</improvement>
+	</improvements>
+	<expenses />
+	<locations />
+	<armorbundles />
+	<weaponlocations />
+	<improvementgroups />
+	<calendar />
+	<sources>
+		<source>SR5</source>
+		<source>RG</source>
+	</sources>
+</character>

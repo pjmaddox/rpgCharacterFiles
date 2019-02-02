@@ -1,0 +1,2655 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<character>
+	<createdversion>5.192.9</createdversion>
+	<appversion>5.192.0</appversion>
+	<gameedition>SR5</gameedition>
+	<settings>default.xml</settings>
+	<metatype>Human</metatype>
+	<metatypebp>0</metatypebp>
+	<metavariant />
+	<metatypecategory>Metahuman</metatypecategory>
+	<metageneticlimit>0</metageneticlimit>
+	<movement />
+	<walk>2/1/0</walk>
+	<run>4/0/0</run>
+	<sprint>2/1/0</sprint>
+	<prioritymetatype>D,1</prioritymetatype>
+	<priorityattributes>B,3</priorityattributes>
+	<priorityspecial>C,2</priorityspecial>
+	<priorityskills>A,4</priorityskills>
+	<priorityresources>E,0</priorityresources>
+	<prioritytalent>Magician</prioritytalent>
+	<priorityskill1>Aeronautics Mechanic</priorityskill1>
+	<priorityskill2>Arcana</priorityskill2>
+	<priorityskillgroup />
+	<essenceatspecialstart>6.0</essenceatspecialstart>
+	<name>Akiba Koulu</name>
+	<mainmugshotindex>0</mainmugshotindex>
+	<mugshots />
+	<sex>M</sex>
+	<age>37</age>
+	<eyes>Brown</eyes>
+	<height>5'8"</height>
+	<weight>165 lbs</weight>
+	<skin>Relatively Pale</skin>
+	<hair>Black, mid-length</hair>
+	<description>Very plain looking japanese man with relatively round face, medium length black hair, and large black glasses.
+
+Medium to light build.
+
+Typicall wears white lab coat and jeans with nicer shoes, or track jacket with the same jeans and boots.</description>
+	<background>Grew up in the upper part of the lower class. Had amenities and constant net access. Was scouted early on by MCT for magical potential and had things set for him since then.
+
+Went to University in the UCAS sponsored by MCT.
+
+Was then employed temporarily by MCT while finishing his degree.
+
+Currently a lab manager in a small MCT cyber lab.  Part surgeon, part analyst, part administrator.
+
+Always had a grim fascination with the methuman body and how it can be improved or impaired. Coupled with his natural intelligence, he and others in MCT see him as a rising star. He aspires to be an expert in his field, and understands the value of first-hand experience.
+
+Has MCT permissions for part time work to focus on his research in "the field."</background>
+	<concept />
+	<notes />
+	<alias>Coma (Social)</alias>
+	<playername>Patrick Maddox</playername>
+	<gamenotes />
+	<primaryarm>Right</primaryarm>
+	<karma>2</karma>
+	<totalkarma>0</totalkarma>
+	<special>0</special>
+	<totalspecial>3</totalspecial>
+	<totalattributes>20</totalattributes>
+	<contactpoints>12</contactpoints>
+	<contactpointsused>3</contactpointsused>
+	<spelllimit>5</spelllimit>
+	<cfplimit>0</cfplimit>
+	<ainormalprogramlimit>0</ainormalprogramlimit>
+	<aiadvancedprogramlimit>0</aiadvancedprogramlimit>
+	<streetcred>0</streetcred>
+	<notoriety>0</notoriety>
+	<publicawareness>0</publicawareness>
+	<burntstreetcred>0</burntstreetcred>
+	<created>False</created>
+	<maxavail>12</maxavail>
+	<nuyen>155</nuyen>
+	<startingnuyen>6000</startingnuyen>
+	<adeptwaydiscount>0</adeptwaydiscount>
+	<sumtoten>10</sumtoten>
+	<bp>0</bp>
+	<buildkarma>25</buildkarma>
+	<buildmethod>Priority</buildmethod>
+	<gameplayoption>Standard</gameplayoption>
+	<gameplayoptionqualitylimit>25</gameplayoptionqualitylimit>
+	<maxnuyen>10</maxnuyen>
+	<maxkarma>25</maxkarma>
+	<contactmultiplier>3</contactmultiplier>
+	<nuyenbp>10</nuyenbp>
+	<nuyenmaxbp>10</nuyenmaxbp>
+	<adept>False</adept>
+	<magician>True</magician>
+	<technomancer>False</technomancer>
+	<ai>False</ai>
+	<cyberwaredisabled>False</cyberwaredisabled>
+	<initiationoverride>False</initiationoverride>
+	<critter>False</critter>
+	<friendsinhighplaces>False</friendsinhighplaces>
+	<prototypetranshuman>0</prototypetranshuman>
+	<blackmarketdiscount>False</blackmarketdiscount>
+	<excon>False</excon>
+	<trustfund>0</trustfund>
+	<restrictedgear>False</restrictedgear>
+	<overclocker>False</overclocker>
+	<mademan>False</mademan>
+	<lightningreflexes>False</lightningreflexes>
+	<fame>False</fame>
+	<bornrich>False</bornrich>
+	<erased>False</erased>
+	<attributes>
+		<attribute>
+			<name>BOD</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>2</value>
+			<base>2</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>2</totalvalue>
+		</attribute>
+		<attribute>
+			<name>AGI</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>3</value>
+			<base>3</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>3</totalvalue>
+		</attribute>
+		<attribute>
+			<name>REA</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>3</value>
+			<base>3</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>3</totalvalue>
+		</attribute>
+		<attribute>
+			<name>STR</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>1</value>
+			<base>1</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>1</totalvalue>
+		</attribute>
+		<attribute>
+			<name>CHA</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>4</value>
+			<base>4</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>4</totalvalue>
+		</attribute>
+		<attribute>
+			<name>INT</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>4</value>
+			<base>4</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>4</totalvalue>
+		</attribute>
+		<attribute>
+			<name>LOG</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>6</value>
+			<base>6</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>6</totalvalue>
+		</attribute>
+		<attribute>
+			<name>WIL</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>10</metatypeaugmax>
+			<value>5</value>
+			<base>5</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>5</totalvalue>
+		</attribute>
+		<attribute>
+			<name>EDG</name>
+			<metatypemin>2</metatypemin>
+			<metatypemax>7</metatypemax>
+			<metatypeaugmax>7</metatypeaugmax>
+			<value>2</value>
+			<base>2</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>2</totalvalue>
+		</attribute>
+		<attribute>
+			<name>MAG</name>
+			<metatypemin>3</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>6</metatypeaugmax>
+			<value>6</value>
+			<base>6</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>6</totalvalue>
+		</attribute>
+		<attribute>
+			<name>RES</name>
+			<metatypemin>1</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>6</metatypeaugmax>
+			<value>1</value>
+			<base>1</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>1</totalvalue>
+		</attribute>
+		<attribute>
+			<name>ESS</name>
+			<metatypemin>0</metatypemin>
+			<metatypemax>6</metatypemax>
+			<metatypeaugmax>6</metatypeaugmax>
+			<value>0</value>
+			<base>0</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>1</totalvalue>
+		</attribute>
+		<attribute>
+			<name>DEP</name>
+			<metatypemin>0</metatypemin>
+			<metatypemax>0</metatypemax>
+			<metatypeaugmax>0</metatypeaugmax>
+			<value>0</value>
+			<base>0</base>
+			<karma>0</karma>
+			<augmodifier>0</augmodifier>
+			<totalvalue>0</totalvalue>
+		</attribute>
+	</attributes>
+	<magenabled>True</magenabled>
+	<initiategrade>0</initiategrade>
+	<resenabled>False</resenabled>
+	<submersiongrade>0</submersiongrade>
+	<depenabled>False</depenabled>
+	<groupmember>False</groupmember>
+	<groupname />
+	<groupnotes />
+	<totaless>6</totaless>
+	<tradition>Hermetic</tradition>
+	<traditiondrain />
+	<traditionname />
+	<spiritcombat />
+	<spiritdetection />
+	<spirithealth />
+	<spiritillusion />
+	<spiritmanipulation />
+	<stream>Default</stream>
+	<streamdrain>RES + WIL</streamdrain>
+	<physicalcmfilled>0</physicalcmfilled>
+	<stuncmfilled>0</stuncmfilled>
+	<newskills>
+		<skillptsmax>46</skillptsmax>
+		<skillgrpsmax>10</skillgrpsmax>
+		<uneducated>False</uneducated>
+		<uncouth>False</uncouth>
+		<schoolofhardknocks>False</schoolofhardknocks>
+		<collegeeducation>False</collegeeducation>
+		<jackofalltrades>False</jackofalltrades>
+		<techschool>False</techschool>
+		<linguist>False</linguist>
+		<skills>
+			<skill>
+				<guid>81e45d1a-7232-4795-a275-ac63ed6dd027</guid>
+				<suid>b52f7575-eebf-41c4-938d-df3397b5ee68</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>a696b315-d9b8-49ea-8faa-33cec8188370</guid>
+				<suid>fc89344f-daa6-438e-b61d-23f10dd13e44</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>2b89c305-ce40-4c1d-80d5-bd706aaad4a2</guid>
+				<suid>e09e5aa7-e496-41a2-97ce-17f577361888</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>b97e2500-ca30-45a4-9e03-19edc3f702a8</guid>
+				<suid>74a68a9e-8c5b-4998-8dbb-08c1e768afc3</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>1f797b13-a813-4999-b273-5854a3cda800</guid>
+				<suid>1537ca5c-fa93-4c05-b073-a2a0eed91b8e</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>9dc3b943-5e4e-4c37-9a1a-c7f1c3035682</guid>
+				<suid>ada6d9b2-e451-4289-be45-7085fa34a51a</suid>
+				<karma>0</karma>
+				<base>5</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>93cdde88-7132-4cce-ad8e-80ba8a193ccb</guid>
+				<suid>955d9376-3066-469d-8670-5170c1d59020</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>19b5c68c-b9f8-4966-85fe-b67564f1f93b</guid>
+				<suid>2f4c706f-5ac5-4774-8a45-3b4667989a20</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>d80a7293-ff40-4657-8d5b-266bce89872b</guid>
+				<suid>59318078-e071-411b-9194-7222560e9f4a</suid>
+				<karma>0</karma>
+				<base>5</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>6a4f88aa-22c4-4bf1-806f-792cc516c013</guid>
+				<suid>b7599a42-ceed-4558-b357-865aa3e317f5</suid>
+				<karma>1</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>dbba1f64-87b1-4047-bd95-59764e569c31</guid>
+				<suid>788b387b-ee41-4e6a-bf22-481a8cc4cf9f</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>7d662933-9f39-4813-ae6e-4f4eb1570ca1</guid>
+				<suid>5e5f2f7f-f63b-4f65-a65d-91b3d4523c6f</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>96b9970a-761b-412f-8467-704546c10e15</guid>
+				<suid>9a2d9175-d445-45ca-842d-90223ad13f05</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>2b38c448-6e33-4fe1-a8f8-81b5429ae9ec</guid>
+				<suid>dfba7c09-3d95-43fd-be75-39b3e8b22cd3</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>debc583a-74b1-4e76-8814-a5b4d6522299</guid>
+				<suid>ba624682-a5c0-4cf5-b47b-1021e6a1800d</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>50e2d140-9a5c-4e7d-a5d0-11381fa9393b</guid>
+				<suid>48763fa5-4b89-48c7-80ff-d0a2761de4c0</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>8483e787-7028-4d10-a59c-146048145727</guid>
+				<suid>bd4d977a-cbd4-4289-99bb-896caed6786a</suid>
+				<karma>0</karma>
+				<base>1</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+				<specs>
+					<spec>
+						<guid>21ee3fe9-3998-42c3-b919-00711aab372e</guid>
+						<name>Toxins</name>
+					</spec>
+				</specs>
+			</skill>
+			<skill>
+				<guid>c84bbe13-af96-42fc-8e78-cdfdd28cdb1f</guid>
+				<suid>cd9f6bf7-fa48-464b-9a8f-c7ce26713a72</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>085d2175-e156-4f39-8b66-f048167a0550</guid>
+				<suid>1c14bf0d-cc69-4126-9a95-1f2429c11aa5</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>419a6cb7-8a71-4134-befc-e09a8fe72a93</guid>
+				<suid>6d7f48d3-84a1-4fce-90d3-58d566f70fa6</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>a8163311-c48f-4d41-ba61-8321ab97874b</guid>
+				<suid>3db81bcc-264b-47e1-847c-06bdacd88973</suid>
+				<karma>0</karma>
+				<base>3</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>b4c9b6c7-d6f5-4e64-aa4f-19133ced74ba</guid>
+				<suid>7143f979-aa48-4cc8-a29c-e010400e6e11</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>057de032-96e8-4b61-8038-ee62c26987ea</guid>
+				<suid>9b386fe5-83b3-436f-9035-efd1c0f7a680</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>32951afd-7772-43d3-a8f7-5e3ada06823e</guid>
+				<suid>276877e1-5cdf-4e95-befd-13c1abb5ae02</suid>
+				<karma>1</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>True</buywithkarma>
+				<specs>
+					<spec>
+						<guid>65fb2275-9d8d-4cbd-a1a2-e1d089813b02</guid>
+						<name>Commercial Explosives</name>
+					</spec>
+				</specs>
+			</skill>
+			<skill>
+				<guid>81447d42-5780-41b0-a0b5-97c48b3daffd</guid>
+				<suid>a9d9b686-bc4a-4347-b011-ff8f41455965</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>1345f113-c582-45dc-9bb8-e8f4588d1e12</guid>
+				<suid>9b2416b2-3e2b-4dd6-ab9d-530f493c1c22</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>bf95e493-11ac-4c56-8a36-52844839704f</guid>
+				<suid>23c3320c-5010-4b2e-ac46-76f0a86af0b9</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>a899abed-3f84-43a1-95ca-77ff1987254b</guid>
+				<suid>2c8e5f20-e52d-4844-89e9-51b92dba47df</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>358555ce-83ee-4649-a8e9-dc2ae9b2cbd1</guid>
+				<suid>3f93335c-49d6-4904-a97e-4c942ab05b59</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>8b6b40db-9baa-4b4a-a9b2-0ac86390465e</guid>
+				<suid>b20acd11-f102-40f3-a641-e3c420fbdb91</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>91f9cb42-98e0-4f21-9175-e6f120b36c48</guid>
+				<suid>47cb1e8b-c285-4c54-9aaa-75305ad6dd4f</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>fb8369ac-363c-4c12-9b96-0e8f04540d3d</guid>
+				<suid>27db6e2a-a49f-4232-b150-e676b8dacb52</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>4d642ba4-5c7f-4ca2-ab11-7815972b1b4e</guid>
+				<suid>c9f52f97-a284-44a7-8af6-802dd3ed554f</suid>
+				<karma>1</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>52f57c1f-8c21-4a40-9819-ea576e54b75c</guid>
+				<suid>f510ccc3-cf95-4461-b2f7-e966daaa5a91</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>c398d07b-edf3-4ec7-acd6-04adf583fb29</guid>
+				<suid>58452cff-44ea-41c6-a554-28a869149b27</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>7ec6edd1-5d19-4edd-bdfc-459cf1558268</guid>
+				<suid>a9fa961d-07e5-46da-8edc-403ae3e6cc75</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>b2ff5fc6-fc8d-42e9-9747-38b8dbeccf98</guid>
+				<suid>c2bb65f5-4a6b-49bf-9925-ef6434cb6929</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>2521b688-57c8-458b-b07e-9d3fbabb3891</guid>
+				<suid>41e184e0-7273-403a-9300-fa29a1707bf0</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>08c2e395-678e-4cfb-a659-3990817764d9</guid>
+				<suid>64841e6e-9487-4b63-80a1-dcad6eb78179</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>e7d63dd7-62ac-4e49-9ae3-f9efcccdadf8</guid>
+				<suid>e7e5a43f-9762-4863-86dc-3fd7799e53a2</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>7176492f-c4a9-414a-bba7-9d0266fd6563</guid>
+				<suid>935621c5-d384-42f2-a740-1fa349fa85a1</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>b2a1b1d4-ea72-4656-96d9-f4dce26eca61</guid>
+				<suid>3b34b209-00be-42b8-b4ac-cc7dea08af8a</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>c7f3b57a-96ff-41ea-8788-f075c5b2c9f1</guid>
+				<suid>9de43fad-b365-4e73-bc06-91dd571b858a</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>69de0912-1bef-4df2-95f0-2f002fd66e8f</guid>
+				<suid>963a548d-c629-4a13-a3e3-31b085a42e20</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>e293ead7-cb6b-45a3-9389-ae4e3676feb0</guid>
+				<suid>09fbc992-9fad-4f2d-ab56-725bac943dc6</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>a3e033c6-61f5-466b-a7d6-3ea6f9194ac9</guid>
+				<suid>64088b25-de37-4d71-8800-4a430fde08af</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>f010970b-fc12-4b1d-964f-45951a0cdd85</guid>
+				<suid>938be691-4b3d-49a2-a673-bbf9924ce8f0</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>54789c15-8847-4fb3-948e-72b7c20c9f52</guid>
+				<suid>48cc79be-f75e-4fe6-8721-7864c9f231f6</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>439c827e-136e-4ac5-893d-307af4ba47ed</guid>
+				<suid>f8037e7f-d48b-452b-8f66-2e0c36677fea</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>26964e54-e4e1-40da-9328-fef6b7834690</guid>
+				<suid>729c9cee-ef8f-492d-aa7f-17ec1bc3816e</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>430ddc5f-31cf-409e-aa68-f1aeeb3f3ab4</guid>
+				<suid>17fbaafa-8dbb-4f29-9244-5ae1cd4ac42f</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>17388343-73eb-40c6-b521-2c1321d2c24a</guid>
+				<suid>04e1eb3e-e82d-485b-a7fd-1e677df2a070</suid>
+				<karma>0</karma>
+				<base>6</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+				<specs>
+					<spec>
+						<guid>eee93103-671a-4125-90f1-dcefb78b4286</guid>
+						<name>Searching</name>
+					</spec>
+				</specs>
+			</skill>
+			<skill>
+				<guid>e359dcf0-ff57-4f11-999d-9b913c7207da</guid>
+				<suid>53f96d6a-363b-4c14-be1d-68e74930c67b</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>8c34764d-b4e7-45e8-b0fb-eb901ad3d71a</guid>
+				<suid>3ba9397e-f790-44ca-ae40-15a2356e348d</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>47f074f5-5ed5-4ed3-84f2-a8510618bf36</guid>
+				<suid>10d5c887-a1e5-4cca-8613-3a28f1aab810</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>1e8d8fdf-e608-4e1c-998d-f24ca34f9e65</guid>
+				<suid>ae91a8a6-80e7-4f52-b9eb-21725a5528a4</suid>
+				<karma>0</karma>
+				<base>1</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+				<specs>
+					<spec>
+						<guid>46d049b6-55e1-4efb-9e91-bd97160cc5b8</guid>
+						<name>Bike</name>
+					</spec>
+				</specs>
+			</skill>
+			<skill>
+				<guid>014b4be5-a760-4ccd-a923-d45aa40d94d2</guid>
+				<suid>b8a24d87-465a-4365-9948-038fe1ac62c4</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>44714917-2b84-45f7-97d5-b78a849e7815</guid>
+				<suid>1579818e-af85-47cd-8c9f-2e86e9dc19da</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>c22e59b3-33c9-43e4-bca4-2d76a20cd7ae</guid>
+				<suid>adf31a50-b228-4e09-a09c-46ab9f5e59a1</suid>
+				<karma>0</karma>
+				<base>6</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+				<specs>
+					<spec>
+						<guid>9321e184-adc5-47af-b518-c7aa3996874c</guid>
+						<name>Semi-Automatics</name>
+					</spec>
+				</specs>
+			</skill>
+			<skill>
+				<guid>67929cda-a2de-4c90-a461-33ce6f3ba9de</guid>
+				<suid>a6287e62-6a3b-43ce-b6e0-20f3655910e2</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>cb9a9040-e3b0-4f5b-8554-a63214509725</guid>
+				<suid>1531b2d8-6116-4be4-87b0-232dba1fc447</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>ac3de4db-9935-4622-b390-b9d0deb359cc</guid>
+				<suid>9cff9aa7-d092-4f89-8b7b-3ab835818874</suid>
+				<karma>0</karma>
+				<base>5</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+				<specs>
+					<spec>
+						<guid>60136ceb-8489-438c-8ccb-bf1a0b211d1f</guid>
+						<name>Urban</name>
+					</spec>
+				</specs>
+			</skill>
+			<skill>
+				<guid>0409f359-e0c9-4085-8925-128cbd394b3e</guid>
+				<suid>b693f3bf-48dc-4570-9743-d94d14ee698b</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>60a792e6-d755-4bee-8f0e-693d5a6e31cc</guid>
+				<suid>c4367a39-4065-4b1d-aa62-e9dce377e452</suid>
+				<karma>0</karma>
+				<base>6</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+				<specs>
+					<spec>
+						<guid>38b15b58-9361-4eb0-b508-38fe68c4d49a</guid>
+						<name>Health</name>
+					</spec>
+				</specs>
+			</skill>
+			<skill>
+				<guid>5ba49780-d1a6-41ea-b922-4ca1eb5592aa</guid>
+				<suid>51e34c6c-b07f-45f4-8a5e-8f2b617ed32f</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+				<specs>
+					<spec>
+						<guid>27098aac-72ff-4b18-af7a-4fd192efa004</guid>
+						<name>Spirits of Man</name>
+					</spec>
+				</specs>
+			</skill>
+			<skill>
+				<guid>0eda4406-ecee-45ea-bcc6-1deb22272913</guid>
+				<suid>89ee1730-053a-400f-a13a-4fbadae015f0</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>4489f4ba-584f-4489-a7df-15c93cf76670</guid>
+				<suid>0dbcb9cd-f824-4b5d-a387-90d33318b04c</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>bd30a3de-67cd-4ff9-90f5-f1e9c579160d</guid>
+				<suid>867a6fa0-7d98-4cde-83a4-b33dd39de08e</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>cb4c33e8-c4e5-48e8-8c8d-83ee3dfb0439</guid>
+				<suid>7ed2f3e0-a791-4cb7-ba3e-ac785fdc3d7e</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+			<skill>
+				<guid>57c8e39e-e7f6-4f65-91af-af570dd555c5</guid>
+				<suid>4fcd40cb-4b02-4b7e-afcb-f44d46cd5706</suid>
+				<karma>0</karma>
+				<base>0</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+			</skill>
+		</skills>
+		<knoskills>
+			<skill>
+				<guid>bbc51b6d-a6b8-4711-a563-bbc51556b8fe</guid>
+				<suid>00000000-0000-0000-0000-000000000000</suid>
+				<karma>0</karma>
+				<base>4</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+				<name>Biology</name>
+				<type>Academic</type>
+			</skill>
+			<skill>
+				<guid>6c284d19-3e72-4bde-b162-f9c8a710971f</guid>
+				<suid>00000000-0000-0000-0000-000000000000</suid>
+				<karma>0</karma>
+				<base>1</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+				<name>Business</name>
+				<type>Professional</type>
+			</skill>
+			<skill>
+				<guid>d6169750-e042-4e9c-9baf-5b17e359f7ca</guid>
+				<suid>00000000-0000-0000-0000-000000000000</suid>
+				<karma>0</karma>
+				<base>1</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+				<name>Matrix</name>
+				<type>Professional</type>
+			</skill>
+			<skill>
+				<guid>64058dcb-baf9-4319-b01e-1118676e1452</guid>
+				<suid>00000000-0000-0000-0000-000000000000</suid>
+				<karma>0</karma>
+				<base>1</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+				<name>Forensics</name>
+				<type>Professional</type>
+			</skill>
+			<skill>
+				<guid>767f6dd6-793e-4a7f-955e-5124c40a610b</guid>
+				<suid>00000000-0000-0000-0000-000000000000</suid>
+				<karma>0</karma>
+				<base>3</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+				<name>Magical Theory (Academic)</name>
+				<type>Academic</type>
+			</skill>
+			<skill>
+				<guid>cf0a07ed-fe3c-4966-bce1-c078014bcb27</guid>
+				<suid>00000000-0000-0000-0000-000000000000</suid>
+				<karma>0</karma>
+				<base>1</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+				<name>Magic Traditions</name>
+				<type>Academic</type>
+			</skill>
+			<skill>
+				<guid>3e776332-70e7-4bcb-818b-7eac774bfb24</guid>
+				<suid>00000000-0000-0000-0000-000000000000</suid>
+				<karma>0</karma>
+				<base>1</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+				<name>Popular Culture</name>
+				<type>Interest</type>
+			</skill>
+			<skill>
+				<guid>bdaa4832-4adf-4705-a614-2c5c4545b284</guid>
+				<suid>00000000-0000-0000-0000-000000000000</suid>
+				<karma>0</karma>
+				<base>2</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+				<name>Black Markets</name>
+				<type>Street</type>
+			</skill>
+			<skill>
+				<guid>f398736b-e3ef-4b1d-8590-bd27d8e9d5fa</guid>
+				<suid>00000000-0000-0000-0000-000000000000</suid>
+				<karma>0</karma>
+				<base>4</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+				<name>Chemistry</name>
+				<type>Academic</type>
+			</skill>
+			<skill>
+				<guid>b3a7bf8a-4b55-4301-8ec7-8d86672563ff</guid>
+				<suid>00000000-0000-0000-0000-000000000000</suid>
+				<karma>0</karma>
+				<base>2</base>
+				<notes />
+				<buywithkarma>False</buywithkarma>
+				<name>Japanese</name>
+				<type>Language</type>
+			</skill>
+		</knoskills>
+		<skilljackknowledgeskills />
+		<groups>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>a9fbcf11-d958-40e1-a3f0-1e9b3dd01e6b</id>
+				<name>Stealth</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>3d534c3a-aa3b-4a81-9695-55ddfd8ca406</id>
+				<name>Sorcery</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>40c72ff6-a4bf-44ce-8e1f-dd349b544ad6</id>
+				<name>Outdoors</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>3</base>
+				<id>879c915f-5809-43ae-b59b-99687c0b2ead</id>
+				<name>Influence</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>81219f3d-dec6-4aef-ad34-5f7e5c3541b6</id>
+				<name>Firearms</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>7a7b291e-10eb-4c7d-bb68-11431de03096</id>
+				<name>Engineering</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>f6570b8d-5bd0-4eec-b211-ce07272c495e</id>
+				<name>Enchanting</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>13dde3c9-a0ed-42a9-9fe4-c435aff99964</id>
+				<name>Electronics</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>bfc8720c-dc01-4cfa-aaa0-4dc1a2b41327</id>
+				<name>Cracking</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>f904e27c-1fa1-40c2-9c44-43c4495a10e0</id>
+				<name>Conjuring</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>7d03e34d-090b-4efe-a399-de85c8de1dd6</id>
+				<name>Close Combat</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>6</base>
+				<id>85f0d962-d62b-4f76-9d74-0214368e0b13</id>
+				<name>Biotech</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>0</base>
+				<id>3aba3ac6-e579-4a84-a75d-11d214760ee0</id>
+				<name>Athletics</name>
+			</group>
+			<group>
+				<karma>0</karma>
+				<base>1</base>
+				<id>24b7853d-636d-439b-aac5-fa5897be26a4</id>
+				<name>Acting</name>
+			</group>
+		</groups>
+	</newskills>
+	<contacts>
+		<contact>
+			<name>Dr. Mirida Toujin</name>
+			<role>Hermetic Academic</role>
+			<location>University of Washington / MCT</location>
+			<connection>4</connection>
+			<loyalty>5</loyalty>
+			<type>Contact</type>
+			<file />
+			<relative />
+			<notes />
+			<groupname />
+			<colour>0</colour>
+			<free>False</free>
+			<group>False</group>
+			<mademan>False</mademan>
+			<family>False</family>
+			<blackmail>False</blackmail>
+		</contact>
+	</contacts>
+	<spells>
+		<spell>
+			<guid>9f6045cc-7859-4098-adc4-c201e53c19eb</guid>
+			<name>Ice Spear</name>
+			<descriptors>Indirect, Elemental</descriptors>
+			<category>Combat</category>
+			<type>P</type>
+			<range>LOS</range>
+			<damage>P</damage>
+			<duration>I</duration>
+			<dv>F-3</dv>
+			<limited>False</limited>
+			<extended>False</extended>
+			<alchemical>False</alchemical>
+			<source>SG</source>
+			<page>103</page>
+			<extra />
+			<notes />
+			<improvementsource>Spell</improvementsource>
+			<grade>0</grade>
+		</spell>
+		<spell>
+			<guid>0d2f6ef0-644a-4e5e-bd5a-910003e04296</guid>
+			<name>Bind</name>
+			<descriptors>Physical</descriptors>
+			<category>Manipulation</category>
+			<type>P</type>
+			<range>LOS</range>
+			<damage>0</damage>
+			<duration>S</duration>
+			<dv>F-2</dv>
+			<limited>False</limited>
+			<extended>False</extended>
+			<alchemical>False</alchemical>
+			<source>SG</source>
+			<page>113</page>
+			<extra />
+			<notes />
+			<improvementsource>Spell</improvementsource>
+			<grade>0</grade>
+		</spell>
+		<spell>
+			<guid>3cc53635-b2a2-48d8-8fa2-fb9d31d8603e</guid>
+			<name>Increase [Attribute]</name>
+			<descriptors>Essence</descriptors>
+			<category>Health</category>
+			<type>P</type>
+			<range>T</range>
+			<damage>0</damage>
+			<duration>S</duration>
+			<dv>F-3</dv>
+			<limited>False</limited>
+			<extended>False</extended>
+			<alchemical>False</alchemical>
+			<source>SR5</source>
+			<page>288</page>
+			<extra>CHA</extra>
+			<notes />
+			<improvementsource>Spell</improvementsource>
+			<grade>0</grade>
+		</spell>
+		<spell>
+			<guid>e8878bba-50db-462e-b8b8-79f4e2799553</guid>
+			<name>Increase Reflexes</name>
+			<descriptors>Essence</descriptors>
+			<category>Health</category>
+			<type>P</type>
+			<range>T</range>
+			<damage>0</damage>
+			<duration>S</duration>
+			<dv>F</dv>
+			<limited>False</limited>
+			<extended>False</extended>
+			<alchemical>False</alchemical>
+			<source>SR5</source>
+			<page>288</page>
+			<extra />
+			<notes />
+			<improvementsource>Spell</improvementsource>
+			<grade>0</grade>
+		</spell>
+		<spell>
+			<guid>53374b11-3f1c-4dce-bc59-0caa0378e63a</guid>
+			<name>Heal</name>
+			<descriptors>Essence</descriptors>
+			<category>Health</category>
+			<type>M</type>
+			<range>T</range>
+			<damage>0</damage>
+			<duration>P</duration>
+			<dv>F-4</dv>
+			<limited>False</limited>
+			<extended>False</extended>
+			<alchemical>False</alchemical>
+			<source>SR5</source>
+			<page>288</page>
+			<extra />
+			<notes />
+			<improvementsource>Spell</improvementsource>
+			<grade>0</grade>
+		</spell>
+	</spells>
+	<foci />
+	<stackedfoci />
+	<powers />
+	<spirits />
+	<complexforms />
+	<aiprograms />
+	<martialarts />
+	<martialartmaneuvers />
+	<limitmodifiers />
+	<armors>
+		<armor>
+			<sourceid>36a4cd30-c32c-44d0-847a-0c15fb51072a</sourceid>
+			<guid>6b6bde90-b743-4807-8a4f-6550b0fd201f</guid>
+			<name>Armor Jacket</name>
+			<category>Armor</category>
+			<armor>12</armor>
+			<armoroverride>0</armoroverride>
+			<armorcapacity>12</armorcapacity>
+			<avail>2</avail>
+			<cost>1000</cost>
+			<source>SR5</source>
+			<page>437</page>
+			<armorname />
+			<equipped>True</equipped>
+			<extra />
+			<damage>0</damage>
+			<rating>0</rating>
+			<rating>0</rating>
+			<armormods /><bonus /><location /><notes /><discountedcost>False</discountedcost></armor>
+		<armor>
+			<sourceid>608d5c68-aba1-40e5-8100-d2615a39a2f3</sourceid>
+			<guid>f600f491-966c-471c-8ee4-dfc075134e69</guid>
+			<name>Custom Ballistic Mask</name>
+			<category>Specialty Armor</category>
+			<armor>+2</armor>
+			<armoroverride>0</armoroverride>
+			<armorcapacity>8</armorcapacity>
+			<avail>6</avail>
+			<cost>300</cost>
+			<source>RG</source>
+			<page>74</page>
+			<armorname />
+			<equipped>True</equipped>
+			<extra />
+			<damage>0</damage>
+			<rating>0</rating>
+			<rating>0</rating>
+			<armormods /><bonus><limitmodifier><limit>Social</limit><value>2</value><condition>Only for intimidation, Must be visible</condition></limitmodifier></bonus><location /><notes>Smooth curvature with narrow rectangles for vision.
+
+Paint job is light blue with grey mottled camoflauge and a small red cross.</notes><discountedcost>False</discountedcost></armor>
+	</armors>
+	<weapons>
+		<weapon>
+			<sourceid>63dcfdb6-bbd9-4a58-bbf4-cd35f7614fdc</sourceid>
+			<guid>141292f3-a70f-4930-beb6-ed6046724b91</guid>
+			<name>Unarmed Attack</name>
+			<category>Unarmed</category>
+			<type>Melee</type>
+			<spec />
+			<spec2 />
+			<reach>0</reach>
+			<damage>(STR)S</damage>
+			<ap>-</ap>
+			<mode>0</mode>
+			<rc>0</rc>
+			<ammo>0</ammo>
+			<cyberware>False</cyberware>
+			<ammocategory />
+			<clips />
+			<conceal>0</conceal>
+			<avail>0</avail>
+			<cost>0</cost>
+			<useskill />
+			<range />
+			<rangemultiply>1</rangemultiply>
+			<fullburst>10</fullburst>
+			<suppressive>20</suppressive>
+			<source>SR5</source>
+			<page>132</page>
+			<weaponname />
+			<included>False</included>
+			<installed>True</installed>
+			<requireammo>True</requireammo>
+			<accuracy>Physical</accuracy>
+			<location />
+			<notes />
+			<discountedcost>False</discountedcost>
+		</weapon>
+		<weapon>
+			<sourceid>971c711b-db32-4339-9203-865ef38f350e</sourceid>
+			<guid>38ab93ad-4c3b-46ad-a5a5-c39d158d10c7</guid>
+			<name>Ares Predator V</name>
+			<category>Heavy Pistols</category>
+			<type>Ranged</type>
+			<spec>Semi-Automatics</spec>
+			<spec2 />
+			<reach>0</reach>
+			<damage>8P</damage>
+			<ap>-1</ap>
+			<mode>SA</mode>
+			<rc>0</rc>
+			<ammo>15(c)</ammo>
+			<cyberware>False</cyberware>
+			<ammocategory />
+			<clips />
+			<conceal>0</conceal>
+			<avail>5R</avail>
+			<cost>725</cost>
+			<useskill />
+			<range />
+			<rangemultiply>1</rangemultiply>
+			<fullburst>10</fullburst>
+			<suppressive>20</suppressive>
+			<source>SR5</source>
+			<page>426</page>
+			<weaponname />
+			<included>False</included>
+			<installed>True</installed>
+			<requireammo>True</requireammo>
+			<accuracy>5</accuracy>
+			<accessories>
+				<accessory>
+					<guid>c7098a21-056b-436a-a18c-8d31ace760cd</guid>
+					<name>Smartgun System, Internal</name>
+					<mount>Internal</mount>
+					<extramount>None</extramount>
+					<rc />
+					<rating>0</rating>
+					<rcgroup>0</rcgroup>
+					<rcdeployable>False</rcdeployable>
+					<conceal />
+					<avail>+2R</avail>
+					<cost>Weapon Cost</cost>
+					<included>True</included>
+					<installed>True</installed>
+					<source>SR5</source>
+					<page>433</page>
+					<accuracy>2</accuracy>
+					<gears>
+						<gear>
+							<guid>817a7bc5-5da5-4d12-b582-bf9006ac58c1</guid>
+							<name>Laser Range Finder</name>
+							<category>Sensor Functions</category>
+							<capacity>[1]</capacity>
+							<armorcapacity>[1]</armorcapacity>
+							<minrating>0</minrating>
+							<maxrating>0</maxrating>
+							<rating>0</rating>
+							<qty>1</qty>
+							<avail>0</avail>
+							<avail3 />
+							<avail6 />
+							<avail10 />
+							<cost>0</cost>
+							<cost3 />
+							<cost6 />
+							<cost10 />
+							<extra />
+							<bonded>False</bonded>
+							<equipped>True</equipped>
+							<homenode>False</homenode><bonus></bonus><source>SR5</source><page>446</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>True</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
+						<gear>
+							<guid>a4dbcbef-27a3-4de5-80b9-888d0f894d1b</guid>
+							<name>Camera, Micro</name>
+							<category>Vision Devices</category>
+							<capacity>1</capacity>
+							<armorcapacity>[1]</armorcapacity>
+							<minrating>0</minrating>
+							<maxrating>0</maxrating>
+							<rating>0</rating>
+							<qty>1</qty>
+							<avail>0</avail>
+							<avail3 />
+							<avail6 />
+							<avail10 />
+							<cost>0</cost>
+							<cost3 />
+							<cost6 />
+							<cost10 />
+							<extra />
+							<bonded>False</bonded>
+							<equipped>True</equipped>
+							<homenode>False</homenode><bonus></bonus><source>SR5</source><page>443</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>True</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
+					</gears>
+					<ammoslots>0</ammoslots>
+					<damagetype />
+					<damage />
+					<damagereplace />
+					<firemode />
+					<firemodereplace />
+					<ap />
+					<apreplace />
+					<notes />
+					<discountedcost>False</discountedcost>
+					<addmode />
+					<fullburst>0</fullburst>
+					<suppressive>0</suppressive>
+					<rangebonus>0</rangebonus>
+					<extra />
+					<ammobonus>0</ammobonus>
+				</accessory>
+			</accessories>
+			<location />
+			<notes />
+			<discountedcost>False</discountedcost>
+		</weapon>
+	</weapons>
+	<cyberwares />
+	<qualities>
+		<quality>
+			<guid>bddf57d2-1360-4b09-b48a-0c0a2079db26</guid>
+			<name>Magician</name>
+			<extra />
+			<bp>30</bp>
+			<implemented>True</implemented>
+			<contributetolimit>False</contributetolimit>
+			<metagenetic />
+			<print>True</print>
+			<qualitytype>Positive</qualitytype>
+			<qualitysource>Metatype</qualitysource>
+			<source>SR5</source>
+			<page>69</page><bonus></bonus><notes /><id>0e741331-d776-4be8-abc5-4101228abdef</id></quality>
+		<quality>
+			<guid>c271314a-ee66-4545-958d-318868447fb7</guid>
+			<name>SINner (Corporate Limited)</name>
+			<extra>Lab Manager</extra>
+			<bp>-15</bp>
+			<implemented>True</implemented>
+			<contributetolimit>True</contributetolimit>
+			<metagenetic />
+			<print>True</print>
+			<qualitytype>Negative</qualitytype>
+			<qualitysource>Selected</qualitysource>
+			<source>SR5</source>
+			<page>84</page><bonus></bonus><notes /><id>318d2edd-833b-48c5-a3e1-343bf03848a5</id></quality>
+		<quality>
+			<guid>09ac63d4-2c9f-465c-9d73-a3aeecf202be</guid>
+			<name>Focused Concentration (Rating 6)</name>
+			<extra />
+			<bp>24</bp>
+			<implemented>True</implemented>
+			<contributetolimit>True</contributetolimit>
+			<metagenetic />
+			<print>True</print>
+			<qualitytype>Positive</qualitytype>
+			<qualitysource>Selected</qualitysource>
+			<source>SR5</source>
+			<page>74</page><bonus></bonus><notes /><id>90ce7689-1dd8-437b-98ad-f10207380684</id></quality>
+		<quality>
+			<guid>12b1f9ea-c698-4026-8c71-5ce766ffed5a</guid>
+			<name>Day Job (10 hrs)</name>
+			<extra>MCT Lab Manager</extra>
+			<bp>-5</bp>
+			<implemented>True</implemented>
+			<contributetolimit>True</contributetolimit>
+			<metagenetic />
+			<print>True</print>
+			<qualitytype>Negative</qualitytype>
+			<qualitysource>Selected</qualitysource>
+			<source>RF</source>
+			<page>154</page><bonus></bonus><notes /><id>8fc3e769-ea71-41e1-968c-600d507cdf94</id></quality>
+		<quality>
+			<guid>3a703fe8-1f4f-4c08-ba82-503a9b2e8e05</guid>
+			<name>Addiction (Mild)</name>
+			<extra>Nicotine</extra>
+			<bp>-4</bp>
+			<implemented>True</implemented>
+			<contributetolimit>True</contributetolimit>
+			<metagenetic />
+			<print>True</print>
+			<qualitytype>Negative</qualitytype>
+			<qualitysource>Selected</qualitysource>
+			<source>SR5</source>
+			<page>77</page><bonus></bonus><notes /><id>ea7cced4-a201-44a2-9a1b-e10180b1df81</id></quality>
+	</qualities>
+	<lifestyles>
+		<lifestyle>
+			<guid>dd36cbd8-41ac-49b9-8d48-6e14852384e4</guid>
+			<name>Hovel</name>
+			<cost>2000</cost>
+			<dice>3</dice>
+			<baselifestyle>Low</baselifestyle>
+			<multiplier>60</multiplier>
+			<months>1</months>
+			<roommates>0</roommates>
+			<percentage>100</percentage>
+			<lifestylename>Low</lifestylename>
+			<purchased>False</purchased>
+			<comforts>0</comforts>
+			<area>0</area>
+			<security>0</security>
+			<comfortsentertainment>0</comfortsentertainment>
+			<areaentertainment>0</areaentertainment>
+			<securityentertainment>0</securityentertainment>
+			<entertainment>0</entertainment>
+			<source>SR5</source>
+			<page>369</page>
+			<trustfund>False</trustfund>
+			<type>Standard</type>
+			<sourceid>451eef87-d18e-4bee-a972-1ee165b08522</sourceid>
+			<lifestylequalities>
+				<lifestylequality>
+					<guid>5b965331-de15-4f89-9b2c-0810eb6cd51c</guid>
+					<name>Cramped</name>
+					<extra />
+					<cost>0</cost>
+					<multiplier>-10</multiplier>
+					<basemultiplier>0</basemultiplier>
+					<lp>1</lp>
+					<contributetolimit>True</contributetolimit>
+					<print>True</print>
+					<lifestylequalitytype>Negative</lifestylequalitytype>
+					<lifestylequalitysource>Selected</lifestylequalitysource>
+					<source>SR5</source>
+					<page>370</page>
+					<allowed /><bonus></bonus><notes /></lifestylequality>
+				<lifestylequality>
+					<guid>192ce5d3-a4b0-4da0-a980-c562806ce190</guid>
+					<name>Datahost Subscription</name>
+					<extra />
+					<cost>250</cost>
+					<multiplier>0</multiplier>
+					<basemultiplier>0</basemultiplier>
+					<lp>0</lp>
+					<contributetolimit>True</contributetolimit>
+					<print>True</print>
+					<lifestylequalitytype>Contracts</lifestylequalitytype>
+					<lifestylequalitysource>Selected</lifestylequalitysource>
+					<source>CF</source>
+					<page>80</page>
+					<allowed /><bonus></bonus><notes /></lifestylequality>
+			</lifestylequalities>
+			<freegrids />
+			<notes />
+		</lifestyle>
+	</lifestyles>
+	<gears>
+		<gear>
+			<guid>845cd4e2-37b8-49e1-bf40-0626962dc2d6</guid>
+			<name>Backpack (Cheap)</name>
+			<category>Tools</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>1</qty>
+			<avail>0</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>20</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>RF</source><page>254</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>8c38de2e-cda3-4b91-b664-8c17f7152c29</guid>
+			<name>Ammo: Regular Ammo</name>
+			<category>Ammunition</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>50</qty>
+			<avail>2R</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<costfor>10</costfor>
+			<cost>20</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra>Heavy Pistols</extra>
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>434</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location>Duffel Bag</location><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>78593b43-0e53-4440-a0cc-1d9ea4746feb</guid>
+			<name>Glue Sprayer</name>
+			<category>Chemicals</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>1</qty>
+			<avail>2</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>150</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>448</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location>Duffel Bag</location><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>48e9006f-0659-413d-8bcd-fef1d16bd67b</guid>
+			<name>Restraint, Plasteel</name>
+			<category>Security Devices</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>2</qty>
+			<avail>6R</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>50</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>447</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location>Duffel Bag</location><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>f71ad5e6-a74a-4f87-80e5-86ac90e7a261</guid>
+			<name>Glue Solvent</name>
+			<category>Chemicals</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>3</qty>
+			<avail>2</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>90</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>448</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location>Duffel Bag</location><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>4e3c25ce-830c-4263-8f6e-d0c50a492527</guid>
+			<name>Detonator Cap</name>
+			<category>Explosives</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>4</qty>
+			<avail>8R</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>75</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>436</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location>Home</location><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>62b342a6-77cc-4d75-96cf-0d021308e7fb</guid>
+			<name>Narcoject</name>
+			<category>Toxins</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>6</qty>
+			<avail>6R</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>50</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>410</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location>Work</location><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>41f04cfc-25ce-4b7d-8d0d-b94cdb63c41c</guid>
+			<name>Duffel Bag (Cheap)</name>
+			<category>Tools</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>1</qty>
+			<avail>0</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>20</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>RF</source><page>254</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location>Duffel Bag</location><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>792b207d-76f8-47d0-ba08-cacf86ba0152</guid>
+			<name>Security Tags</name>
+			<category>RFID Tags</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>10</qty>
+			<avail>3</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<costfor>10</costfor>
+			<cost>5</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>440</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location>Duffel Bag</location><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>2e8e7c26-10c7-4d73-90c7-eddc5a849988</guid>
+			<name>Goggles</name>
+			<category>Vision Devices</category>
+			<capacity>Rating</capacity>
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>6</maxrating>
+			<rating>2</rating>
+			<qty>1</qty>
+			<avail>0</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>Rating * 50</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>443</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children><gear><guid>8c509601-428d-4fc4-bd0c-1ea94222aef0</guid><name>Image Link</name><category>Vision Enhancements</category><capacity>[1]</capacity><armorcapacity>[1]</armorcapacity><minrating>0</minrating><maxrating>0</maxrating><rating>0</rating><qty>1</qty><avail>+0</avail><avail3 /><avail6 /><avail10 /><cost>25</cost><cost3 /><cost6 /><cost10 /><extra /><bonded>False</bonded><equipped>True</equipped><homenode>False</homenode><bonus></bonus><source>SR5</source><page>444</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear><gear><guid>17b0bbd6-00bd-43a1-8e5f-6f33515c69a8</guid><name>Smartlink</name><category>Vision Enhancements</category><capacity>[1]</capacity><armorcapacity>[1]</armorcapacity><minrating>0</minrating><maxrating>0</maxrating><rating>0</rating><qty>1</qty><avail>+4R</avail><avail3 /><avail6 /><avail10 /><cost>2000</cost><cost3 /><cost6 /><cost10 /><extra /><bonded>False</bonded><equipped>True</equipped><homenode>False</homenode><bonus><smartlink /></bonus><source>SR5</source><page>444</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear></children><location>Backpack</location><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>00402afc-9d7b-49b3-8643-0a0b1bfc62b5</guid>
+			<name>Canteen, One Liter</name>
+			<category>Miscellany</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>1</qty>
+			<avail>0</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>10</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>RF</source><page>254</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location>Duffel Bag</location><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>ba56013a-4220-4332-a173-bf2df1905b70</guid>
+			<name>Standard Tags</name>
+			<category>RFID Tags</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>50</qty>
+			<avail>0</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<costfor>10</costfor>
+			<cost>1</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>440</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location>Backpack</location><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>6596fa35-18f1-4b83-8041-a3ea088241d5</guid>
+			<name>CS/Tear Gas</name>
+			<category>Toxins</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>6</qty>
+			<avail>4R</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>20</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>409</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location>Work</location><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>b5418652-5dbb-4b99-b1c0-82cce41021b4</guid>
+			<name>Universal Connector Cord (Meter)</name>
+			<category>Tools</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>1</qty>
+			<avail>0</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>10</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>RF</source><page>254</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location>Backpack</location><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>f90e2803-5ce2-422e-9179-0c1da393e39a</guid>
+			<name>Neuro-Stun VIII</name>
+			<category>Toxins</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>5</qty>
+			<avail>12R</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>60</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>410</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location>Work</location><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>b7cf0d26-7f37-4bd2-8aaf-0f82a7f69a66</guid>
+			<name>Nausea Gas</name>
+			<category>Toxins</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>6</qty>
+			<avail>6R</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>25</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>410</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location>Work</location><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>a76b46bd-7361-4b3f-93e1-c4be726c8f1c</guid>
+			<name>Chemsuit</name>
+			<category>Survival Gear</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>6</maxrating>
+			<rating>4</rating>
+			<qty>1</qty>
+			<avail>Rating * 2</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>Rating * 150</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>448</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location>Home</location><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>a8f06d5b-a5d2-44ad-b694-d25431eed2cc</guid>
+			<name>Detonator, Radio</name>
+			<category>Explosives</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>3</maxrating>
+			<rating>3</rating>
+			<qty>2</qty>
+			<avail>10R</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>75</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>RG</source><page>195</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location>Home</location><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>edc1ba5a-65b6-44ea-b43f-62121e89331c</guid>
+			<name>Detonator, Timer</name>
+			<category>Explosives</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>3</maxrating>
+			<rating>3</rating>
+			<qty>2</qty>
+			<avail>(Rating * 6)F</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>Rating * 50</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>RG</source><page>195</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location>Home</location><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>46da09a3-4564-40ac-8ab0-56e39d59e35b</guid>
+			<name>Commercial Explosive</name>
+			<category>Explosives</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>5</minrating>
+			<maxrating>5</maxrating>
+			<rating>5</rating>
+			<qty>4</qty>
+			<avail>8R</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>100</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>436</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location>Home</location><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>b0c64cf0-8661-4a19-9d83-1c80a13d5bf4</guid>
+			<name>Ammo: Regular Ammo</name>
+			<category>Ammunition</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>50</qty>
+			<avail>2R</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<costfor>10</costfor>
+			<cost>20</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra>Heavy Pistols</extra>
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>434</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>570c5280-4f28-4c81-b62a-0e7527f8c8bc</guid>
+			<name>Earbuds</name>
+			<category>Audio Devices</category>
+			<capacity>Rating</capacity>
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>3</maxrating>
+			<rating>1</rating>
+			<qty>1</qty>
+			<avail>0</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>Rating * 50</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>445</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children><gear><guid>8719647e-8dbd-4986-be4d-70b6ab436bd1</guid><name>Sound Link</name><category>Audio Enhancements</category><capacity>[1]</capacity><armorcapacity>[1]</armorcapacity><minrating>0</minrating><maxrating>0</maxrating><rating>0</rating><qty>1</qty><avail>0</avail><avail3 /><avail6 /><avail10 /><cost>25</cost><cost3 /><cost6 /><cost10 /><extra /><bonded>False</bonded><equipped>True</equipped><homenode>False</homenode><bonus></bonus><source>RF</source><page>229</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear></children><location /><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>4393282b-22e0-497b-a8b7-8c7dde9e16d0</guid>
+			<name>Fake SIN</name>
+			<category>ID/Credsticks</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>6</maxrating>
+			<rating>4</rating>
+			<qty>1</qty>
+			<avail>(Rating * 3)F</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>Rating * 2500</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra>Timothy Winters</extra>
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus><selecttext /></bonus><source>SR5</source><page>442</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children><gear><guid>d2c5e306-88ed-463d-bc06-cd3327a9773b</guid><name>Fake License</name><category>ID/Credsticks</category><capacity /><armorcapacity /><minrating>0</minrating><maxrating>6</maxrating><rating>1</rating><qty>1</qty><avail>(Rating * 3)F</avail><avail3 /><avail6 /><avail10 /><cost>Rating * 200</cost><cost3 /><cost6 /><cost10 /><extra>Mage License</extra><bonded>False</bonded><equipped>True</equipped><homenode>False</homenode><bonus><selectrestricted /></bonus><source>SR5</source><page>443</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear><gear><guid>5883dd51-7e54-4c8d-bdde-0340af3d635d</guid><name>Fake License</name><category>ID/Credsticks</category><capacity /><armorcapacity /><minrating>0</minrating><maxrating>6</maxrating><rating>1</rating><qty>1</qty><avail>(Rating * 3)F</avail><avail3 /><avail6 /><avail10 /><cost>Rating * 200</cost><cost3 /><cost6 /><cost10 /><extra>Firearms License</extra><bonded>False</bonded><equipped>True</equipped><homenode>False</homenode><bonus><selectrestricted /></bonus><source>SR5</source><page>443</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear><gear><guid>f18a9255-6775-4728-9650-f5c2e81de6ce</guid><name>Fake License</name><category>ID/Credsticks</category><capacity /><armorcapacity /><minrating>0</minrating><maxrating>6</maxrating><rating>1</rating><qty>1</qty><avail>(Rating * 3)F</avail><avail3 /><avail6 /><avail10 /><cost>Rating * 200</cost><cost3 /><cost6 /><cost10 /><extra>Driver's License</extra><bonded>False</bonded><equipped>True</equipped><homenode>False</homenode><bonus><selectrestricted /></bonus><source>SR5</source><page>443</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear></children><location /><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>d312652d-3546-408d-b44e-88eb4fc46294</guid>
+			<name>Glasses</name>
+			<category>Vision Devices</category>
+			<capacity>Rating</capacity>
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>4</maxrating>
+			<rating>2</rating>
+			<qty>1</qty>
+			<avail>0</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>Rating * 100</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>443</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children><gear><guid>8715dd07-1652-40cc-bfa8-108600c3cd66</guid><name>Image Link</name><category>Vision Enhancements</category><capacity>[1]</capacity><armorcapacity>[1]</armorcapacity><minrating>0</minrating><maxrating>0</maxrating><rating>0</rating><qty>1</qty><avail>+0</avail><avail3 /><avail6 /><avail10 /><cost>25</cost><cost3 /><cost6 /><cost10 /><extra /><bonded>False</bonded><equipped>True</equipped><homenode>False</homenode><bonus></bonus><source>SR5</source><page>444</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear></children><location /><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>ddcce7d0-7d7d-45bc-89c9-586fc2165e29</guid>
+			<name>Sensor Tags</name>
+			<category>RFID Tags</category>
+			<capacity>1</capacity>
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>10</qty>
+			<avail>5</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<costfor>10</costfor>
+			<cost>40</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>440</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>2e0b3e98-bd21-43db-ae7e-99fe0152d78e</guid>
+			<name>Datachip</name>
+			<category>RFID Tags</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>10</qty>
+			<avail>0</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<costfor>10</costfor>
+			<cost>5</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>440</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>785f58c7-94b6-490f-b361-719f175cb06e</guid>
+			<name>Stealth Tags</name>
+			<category>RFID Tags</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>10</qty>
+			<avail>7R</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<costfor>10</costfor>
+			<cost>10</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>440</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>4ddad2b8-0e96-443b-826a-b57d0be18cc5</guid>
+			<name>Pack of Cigarettes</name>
+			<category>Miscellany</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>3</qty>
+			<avail>0</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>5</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>RF</source><page>254</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>1e0f2b59-736c-487a-890c-422e6833f4d0</guid>
+			<name>Electronic Paper</name>
+			<category>Electronics Accessories</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>3</qty>
+			<avail>0</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>5</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>439</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>2cc59562-939a-4d28-ad01-f17cb329badb</guid>
+			<name>AR Gloves</name>
+			<category>Electronics Accessories</category>
+			<capacity />
+			<armorcapacity>[1]</armorcapacity>
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>1</qty>
+			<avail>0</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>150</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>439</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>4b9e6a60-336e-4008-9d44-ca58f5eae15d</guid>
+			<name>Trodes</name>
+			<category>Electronics Accessories</category>
+			<capacity />
+			<armorcapacity>[2]</armorcapacity>
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>1</qty>
+			<avail>0</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>70</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>439</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>cfb90b6c-192c-4c8e-a390-33c223b24783</guid>
+			<name>Subvocal Mic</name>
+			<category>Electronics Accessories</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>1</qty>
+			<avail>4</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>50</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>439</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>ebce878f-9468-4388-a5fd-f7142101ac2b</guid>
+			<name>Lighter (Good)</name>
+			<category>Tools</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>1</qty>
+			<avail>0</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>5</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>RF</source><page>254</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
+	</gears>
+	<vehicles>
+		<vehicle>
+			<guid>2e79bb04-f66c-49ec-98a6-9de0fadca9d8</guid>
+			<name>Yamaha Growler (Off-Road Bike)</name>
+			<category>Bikes</category>
+			<handling>4</handling>
+			<offroadhandling>5</offroadhandling>
+			<accel>1</accel>
+			<offroadaccel>1</offroadaccel>
+			<speed>3</speed>
+			<offroadspeed>4</offroadspeed>
+			<pilot>1</pilot>
+			<body>5</body>
+			<seats>1</seats>
+			<armor>5</armor>
+			<sensor>1</sensor>
+			<devicerating>1</devicerating>
+			<avail>0</avail>
+			<cost>5000</cost>
+			<addslots>0</addslots>
+			<modslots>5</modslots>
+			<powertrainmodslots>0</powertrainmodslots>
+			<protectionmodslots>0</protectionmodslots>
+			<weaponmodslots>0</weaponmodslots>
+			<bodymodslots>0</bodymodslots>
+			<electromagneticmodslots>0</electromagneticmodslots>
+			<cosmeticmodslots>0</cosmeticmodslots>
+			<source>SR5</source>
+			<page>462</page>
+			<physicalcmfilled>0</physicalcmfilled>
+			<matrixcmfilled>0</matrixcmfilled>
+			<vehiclename />
+			<homenode>False</homenode>
+			<mods />
+			<gears>
+				<gear>
+					<guid>36da6a13-bd0c-4c8e-a8c3-fd25d1698942</guid>
+					<name>Sensor Array</name>
+					<category>Sensors</category>
+					<capacity>8/[6]</capacity>
+					<armorcapacity>[6]</armorcapacity>
+					<minrating>2</minrating>
+					<maxrating>1</maxrating>
+					<rating>1</rating>
+					<qty>1</qty>
+					<avail>7</avail>
+					<avail3 />
+					<avail6 />
+					<avail10 />
+					<cost>0</cost>
+					<cost3 />
+					<cost6 />
+					<cost10 />
+					<extra />
+					<bonded>False</bonded>
+					<equipped>True</equipped>
+					<homenode>False</homenode><bonus></bonus><source>SR5</source><page>445</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>True</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
+			</gears>
+			<weapons />
+			<notes />
+			<discountedcost>False</discountedcost>
+		</vehicle>
+	</vehicles>
+	<metamagics />
+	<arts />
+	<enhancements />
+	<critterpowers />
+	<initiationgrades />
+	<improvements>
+		<improvement>
+			<unique>enabletab</unique>
+			<target />
+			<improvedname>Magician</improvedname>
+			<sourcename>bddf57d2-1360-4b09-b48a-0c0a2079db26</sourcename>
+			<min>0</min>
+			<max>0</max>
+			<aug>0</aug>
+			<augmax>0</augmax>
+			<val>0</val>
+			<rating>0</rating>
+			<exclude />
+			<improvementttype>SpecialTab</improvementttype>
+			<improvementsource>Quality</improvementsource>
+			<custom>False</custom>
+			<customname />
+			<customid />
+			<customgroup />
+			<addtorating>False</addtorating>
+			<enabled>True</enabled>
+			<order>0</order>
+			<notes />
+		</improvement>
+		<improvement>
+			<unique>enableattribute</unique>
+			<target />
+			<improvedname>MAG</improvedname>
+			<sourcename>bddf57d2-1360-4b09-b48a-0c0a2079db26</sourcename>
+			<min>0</min>
+			<max>0</max>
+			<aug>0</aug>
+			<augmax>0</augmax>
+			<val>0</val>
+			<rating>0</rating>
+			<exclude />
+			<improvementttype>Attribute</improvementttype>
+			<improvementsource>Quality</improvementsource>
+			<custom>False</custom>
+			<customname />
+			<customid />
+			<customgroup />
+			<addtorating>False</addtorating>
+			<enabled>True</enabled>
+			<order>0</order>
+			<notes />
+		</improvement>
+		<improvement>
+			<target />
+			<improvedname>Magician</improvedname>
+			<sourcename>bddf57d2-1360-4b09-b48a-0c0a2079db26</sourcename>
+			<min>0</min>
+			<max>0</max>
+			<aug>0</aug>
+			<augmax>0</augmax>
+			<val>0</val>
+			<rating>1</rating>
+			<exclude />
+			<improvementttype>SpecialSkills</improvementttype>
+			<improvementsource>Quality</improvementsource>
+			<custom>False</custom>
+			<customname />
+			<customid />
+			<customgroup />
+			<addtorating>False</addtorating>
+			<enabled>True</enabled>
+			<order>0</order>
+			<notes />
+		</improvement>
+		<improvement>
+			<target />
+			<improvedname>Lab Manager</improvedname>
+			<sourcename>c271314a-ee66-4545-958d-318868447fb7</sourcename>
+			<min>0</min>
+			<max>0</max>
+			<aug>0</aug>
+			<augmax>0</augmax>
+			<val>0</val>
+			<rating>1</rating>
+			<exclude />
+			<improvementttype>Text</improvementttype>
+			<improvementsource>Quality</improvementsource>
+			<custom>False</custom>
+			<customname />
+			<customid />
+			<customgroup />
+			<addtorating>False</addtorating>
+			<enabled>True</enabled>
+			<order>0</order>
+			<notes />
+		</improvement>
+		<improvement>
+			<target />
+			<improvedname>CHA</improvedname>
+			<sourcename>3cc53635-b2a2-48d8-8fa2-fb9d31d8603e</sourcename>
+			<min>0</min>
+			<max>0</max>
+			<aug>0</aug>
+			<augmax>0</augmax>
+			<val>0</val>
+			<rating>1</rating>
+			<exclude />
+			<improvementttype>Attribute</improvementttype>
+			<improvementsource>Spell</improvementsource>
+			<custom>False</custom>
+			<customname />
+			<customid />
+			<customgroup />
+			<addtorating>False</addtorating>
+			<enabled>True</enabled>
+			<order>0</order>
+			<notes />
+		</improvement>
+		<improvement>
+			<target />
+			<improvedname>MCT Lab Manager</improvedname>
+			<sourcename>12b1f9ea-c698-4026-8c71-5ce766ffed5a</sourcename>
+			<min>0</min>
+			<max>0</max>
+			<aug>0</aug>
+			<augmax>0</augmax>
+			<val>0</val>
+			<rating>1</rating>
+			<exclude />
+			<improvementttype>Text</improvementttype>
+			<improvementsource>Quality</improvementsource>
+			<custom>False</custom>
+			<customname />
+			<customid />
+			<customgroup />
+			<addtorating>False</addtorating>
+			<enabled>True</enabled>
+			<order>0</order>
+			<notes />
+		</improvement>
+		<improvement>
+			<unique>Custom Ballistic Mask</unique>
+			<target />
+			<improvedname>Social</improvedname>
+			<sourcename>f600f491-966c-471c-8ee4-dfc075134e69</sourcename>
+			<min>0</min>
+			<max>0</max>
+			<aug>0</aug>
+			<augmax>0</augmax>
+			<val>2</val>
+			<rating>0</rating>
+			<exclude>Only for intimidation, Must be visible</exclude>
+			<improvementttype>LimitModifier</improvementttype>
+			<improvementsource>Armor</improvementsource>
+			<custom>False</custom>
+			<customname />
+			<customid />
+			<customgroup />
+			<addtorating>False</addtorating>
+			<enabled>True</enabled>
+			<order>0</order>
+			<notes />
+		</improvement>
+		<improvement>
+			<target />
+			<improvedname>Timothy Winters</improvedname>
+			<sourcename>4393282b-22e0-497b-a8b7-8c7dde9e16d0</sourcename>
+			<min>0</min>
+			<max>0</max>
+			<aug>0</aug>
+			<augmax>0</augmax>
+			<val>0</val>
+			<rating>1</rating>
+			<exclude />
+			<improvementttype>Text</improvementttype>
+			<improvementsource>Gear</improvementsource>
+			<custom>False</custom>
+			<customname />
+			<customid />
+			<customgroup />
+			<addtorating>False</addtorating>
+			<enabled>True</enabled>
+			<order>0</order>
+			<notes />
+		</improvement>
+		<improvement>
+			<target />
+			<improvedname>Mage License</improvedname>
+			<sourcename>d2c5e306-88ed-463d-bc06-cd3327a9773b</sourcename>
+			<min>0</min>
+			<max>0</max>
+			<aug>0</aug>
+			<augmax>0</augmax>
+			<val>0</val>
+			<rating>1</rating>
+			<exclude />
+			<improvementttype>Restricted</improvementttype>
+			<improvementsource>Gear</improvementsource>
+			<custom>False</custom>
+			<customname />
+			<customid />
+			<customgroup />
+			<addtorating>False</addtorating>
+			<enabled>True</enabled>
+			<order>0</order>
+			<notes />
+		</improvement>
+		<improvement>
+			<target />
+			<improvedname>Firearms License</improvedname>
+			<sourcename>5883dd51-7e54-4c8d-bdde-0340af3d635d</sourcename>
+			<min>0</min>
+			<max>0</max>
+			<aug>0</aug>
+			<augmax>0</augmax>
+			<val>0</val>
+			<rating>1</rating>
+			<exclude />
+			<improvementttype>Restricted</improvementttype>
+			<improvementsource>Gear</improvementsource>
+			<custom>False</custom>
+			<customname />
+			<customid />
+			<customgroup />
+			<addtorating>False</addtorating>
+			<enabled>True</enabled>
+			<order>0</order>
+			<notes />
+		</improvement>
+		<improvement>
+			<unique>smartlink</unique>
+			<target />
+			<improvedname />
+			<sourcename>17b0bbd6-00bd-43a1-8e5f-6f33515c69a8</sourcename>
+			<min>0</min>
+			<max>0</max>
+			<aug>0</aug>
+			<augmax>0</augmax>
+			<val>0</val>
+			<rating>1</rating>
+			<exclude />
+			<improvementttype>Smartlink</improvementttype>
+			<improvementsource>Gear</improvementsource>
+			<custom>False</custom>
+			<customname />
+			<customid />
+			<customgroup />
+			<addtorating>False</addtorating>
+			<enabled>True</enabled>
+			<order>0</order>
+			<notes />
+		</improvement>
+		<improvement>
+			<target />
+			<improvedname>Nicotine</improvedname>
+			<sourcename>3a703fe8-1f4f-4c08-ba82-503a9b2e8e05</sourcename>
+			<min>0</min>
+			<max>0</max>
+			<aug>0</aug>
+			<augmax>0</augmax>
+			<val>0</val>
+			<rating>1</rating>
+			<exclude />
+			<improvementttype>Text</improvementttype>
+			<improvementsource>Quality</improvementsource>
+			<custom>False</custom>
+			<customname />
+			<customid />
+			<customgroup />
+			<addtorating>False</addtorating>
+			<enabled>True</enabled>
+			<order>0</order>
+			<notes />
+		</improvement>
+		<improvement>
+			<target />
+			<improvedname>Driver's License</improvedname>
+			<sourcename>f18a9255-6775-4728-9650-f5c2e81de6ce</sourcename>
+			<min>0</min>
+			<max>0</max>
+			<aug>0</aug>
+			<augmax>0</augmax>
+			<val>0</val>
+			<rating>1</rating>
+			<exclude />
+			<improvementttype>Restricted</improvementttype>
+			<improvementsource>Gear</improvementsource>
+			<custom>False</custom>
+			<customname />
+			<customid />
+			<customgroup />
+			<addtorating>False</addtorating>
+			<enabled>True</enabled>
+			<order>0</order>
+			<notes />
+		</improvement>
+	</improvements>
+	<expenses />
+	<locations>
+		<location>Home</location>
+		<location>Work</location>
+		<location>Duffel Bag</location>
+		<location>Backpack</location>
+	</locations>
+	<armorbundles />
+	<weaponlocations />
+	<improvementgroups />
+	<calendar />
+	<sources>
+		<source>SG</source>
+		<source>SR5</source>
+		<source>RG</source>
+		<source>RF</source>
+		<source>CF</source>
+	</sources>
+</character>
