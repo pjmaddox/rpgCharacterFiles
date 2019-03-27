@@ -39,7 +39,7 @@
   <background />
   <concept />
   <notes />
-  <alias>Mirkwood (Alt Powers)</alias>
+  <alias>Mirkwood</alias>
   <playername>Patrick Maddox</playername>
   <gamenotes />
   <primaryarm>Right</primaryarm>
@@ -811,7 +811,7 @@
         <buywithkarma>False</buywithkarma>
         <specs>
           <spec>
-            <guid>abfa2340-d63c-4a92-bee5-bd215a910de0</guid>
+            <guid>6ec4f3ca-7812-4a07-b1ac-45cd29a1d6c7</guid>
             <name>Revolvers</name>
             <free>False</free>
           </spec>
@@ -943,7 +943,7 @@
         <isknowledge>True</isknowledge>
         <skillcategory>Language</skillcategory>
         <karma>0</karma>
-        <base>3</base>
+        <base>1</base>
         <notes />
         <buywithkarma>False</buywithkarma>
         <name>Sioux</name>
@@ -979,7 +979,7 @@
         <isknowledge>True</isknowledge>
         <skillcategory>Language</skillcategory>
         <karma>0</karma>
-        <base>3</base>
+        <base>1</base>
         <notes />
         <buywithkarma>False</buywithkarma>
         <name>Salish</name>
@@ -1003,17 +1003,101 @@
         <isknowledge>True</isknowledge>
         <skillcategory>Street</skillcategory>
         <karma>0</karma>
-        <base>5</base>
+        <base>2</base>
+        <notes />
+        <buywithkarma>False</buywithkarma>
+        <name>Area Knowledge: Seattle</name>
+        <type>Street</type>
+      </skill>
+      <skill>
+        <guid>37cb3500-db01-4a6b-9d54-dd2db6c9ea72</guid>
+        <suid>0a1dfc0e-dcb9-448d-a2d3-718670d79df1</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Professional</skillcategory>
+        <karma>0</karma>
+        <base>1</base>
         <notes />
         <buywithkarma>False</buywithkarma>
         <specs>
           <spec>
-            <guid>64d0948d-3880-440b-87d9-3813f27571a8</guid>
-            <name>Tacoma</name>
+            <guid>3ba30fd4-0541-467f-bbcb-f7e17c83c9c5</guid>
+            <name>Compliance</name>
             <free>False</free>
           </spec>
         </specs>
-        <name>Area Knowledge: Seattle</name>
+        <name>Business</name>
+        <type>Professional</type>
+      </skill>
+      <skill>
+        <guid>0386c7a8-4d05-4499-8ce7-28a7f7e5868a</guid>
+        <suid>d06dfd90-1df0-4f05-84d5-1fea9d146f87</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Interest</skillcategory>
+        <karma>0</karma>
+        <base>1</base>
+        <notes />
+        <buywithkarma>False</buywithkarma>
+        <name>Small Unit Tactics</name>
+        <type>Interest</type>
+      </skill>
+      <skill>
+        <guid>38b3f31c-11b1-4f0f-8ad4-33d442b707ba</guid>
+        <suid>a1c95207-1864-4723-b26f-b0a8c5b6290d</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Street</skillcategory>
+        <karma>0</karma>
+        <base>1</base>
+        <notes />
+        <buywithkarma>False</buywithkarma>
+        <name>Gangs</name>
+        <type>Street</type>
+      </skill>
+      <skill>
+        <guid>06054f14-05d1-4bad-84e5-dab2944048ab</guid>
+        <suid>e48a5194-57e7-420a-b176-5f51bdb235c4</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Street</skillcategory>
+        <karma>0</karma>
+        <base>1</base>
+        <notes />
+        <buywithkarma>False</buywithkarma>
+        <name>Megacorp Law (Street)</name>
+        <type>Street</type>
+      </skill>
+      <skill>
+        <guid>4b37a6f7-64ab-4271-8335-a001b8bba6b1</guid>
+        <suid>3f7935ef-dc5d-4b53-88ef-cb7db7cbe1a9</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Academic</skillcategory>
+        <karma>0</karma>
+        <base>1</base>
+        <notes />
+        <buywithkarma>False</buywithkarma>
+        <name>Art</name>
+        <type>Academic</type>
+      </skill>
+      <skill>
+        <guid>caea2a4e-8018-4a7e-8ca5-a45b1c65473c</guid>
+        <suid>37013018-70bd-4016-827c-c366949622f5</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Street</skillcategory>
+        <karma>0</karma>
+        <base>1</base>
+        <notes />
+        <buywithkarma>False</buywithkarma>
+        <name>Awakened Hangouts</name>
+        <type>Street</type>
+      </skill>
+      <skill>
+        <guid>8fb266df-1949-477a-a9ca-89b6d67e95a5</guid>
+        <suid>6331a44a-ad26-4b08-8b7a-2dbe3c2d0584</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Street</skillcategory>
+        <karma>0</karma>
+        <base>1</base>
+        <notes />
+        <buywithkarma>False</buywithkarma>
+        <name>Black Markets</name>
         <type>Street</type>
       </skill>
     </knoskills>
@@ -1089,71 +1173,15 @@
   </newskills>
   <contacts>
     <contact>
-      <name>Lila</name>
-      <role>Simsense Star</role>
-      <location>Starrr</location>
-      <connection>12</connection>
-      <loyalty>6</loyalty>
-      <metatype>Human</metatype>
-      <sex>Female</sex>
-      <age>Middle-Aged</age>
-      <contacttype>Networking</contacttype>
-      <preferredpayment>Barter (Hobby/Vice Items)</preferredpayment>
-      <hobbiesvice>Personal Grooming (Fashion)</hobbiesvice>
-      <personallife>Single</personallife>
-      <type>Contact</type>
-      <file />
-      <relative />
-      <notes />
-      <groupname />
-      <colour>0</colour>
-      <group>False</group>
-      <family>False</family>
-      <blackmail>False</blackmail>
-      <free>False</free>
-      <groupenabled>True</groupenabled>
-      <guid>650790a2-a981-4e56-9280-0e5c2ed16e97</guid>
-      <mainmugshotindex>-1</mainmugshotindex>
-      <mugshots />
-    </contact>
-    <contact>
-      <name>SomeElfGang</name>
+      <name>Denise "Demise"</name>
       <role>Gang Leader</role>
       <location />
-      <connection>12</connection>
-      <loyalty>6</loyalty>
-      <metatype>Elf</metatype>
-      <sex>Male</sex>
-      <age>Middle-Aged</age>
-      <contacttype>Shadow Services</contacttype>
-      <preferredpayment>Service (Shadowrunner Job)</preferredpayment>
-      <hobbiesvice>Vehicles (Drones)</hobbiesvice>
-      <personallife>Divorced</personallife>
-      <type>Contact</type>
-      <file />
-      <relative />
-      <notes />
-      <groupname />
-      <colour>0</colour>
-      <group>False</group>
-      <family>False</family>
-      <blackmail>False</blackmail>
-      <free>False</free>
-      <groupenabled>True</groupenabled>
-      <guid>f6c40aeb-22fe-465a-8b77-cb9496347da9</guid>
-      <mainmugshotindex>-1</mainmugshotindex>
-      <mugshots />
-    </contact>
-    <contact>
-      <name>Denise</name>
-      <role>Corporate Manager</role>
-      <location />
-      <connection>2</connection>
-      <loyalty>3</loyalty>
+      <connection>3</connection>
+      <loyalty>2</loyalty>
       <metatype>Elf</metatype>
       <sex>Female</sex>
       <age>Young</age>
-      <contacttype>Legwork</contacttype>
+      <contacttype>Shadow Services</contacttype>
       <preferredpayment>Cash (Corp Scrip)</preferredpayment>
       <hobbiesvice>Entertainment (Movies)</hobbiesvice>
       <personallife>Single</personallife>
@@ -1162,7 +1190,7 @@
       <relative />
       <notes />
       <groupname />
-      <colour>0</colour>
+      <colour>-986896</colour>
       <group>False</group>
       <family>False</family>
       <blackmail>False</blackmail>
@@ -1190,7 +1218,7 @@
       <relative />
       <notes />
       <groupname />
-      <colour>0</colour>
+      <colour>-986896</colour>
       <group>False</group>
       <family>False</family>
       <blackmail>False</blackmail>
@@ -1218,7 +1246,7 @@
       <relative />
       <notes />
       <groupname />
-      <colour>0</colour>
+      <colour>-986896</colour>
       <group>False</group>
       <family>False</family>
       <blackmail>False</blackmail>
@@ -1246,7 +1274,7 @@
       <relative />
       <notes />
       <groupname />
-      <colour>0</colour>
+      <colour>-986896</colour>
       <group>False</group>
       <family>False</family>
       <blackmail>False</blackmail>
@@ -1257,12 +1285,12 @@
       <mugshots />
     </contact>
     <contact>
-      <name />
-      <role>Bartender</role>
-      <location />
-      <connection>1</connection>
-      <loyalty>3</loyalty>
-      <metatype>Troll</metatype>
+      <name>Moullet "Mole"</name>
+      <role>Infobroker</role>
+      <location>Anestacia</location>
+      <connection>3</connection>
+      <loyalty>1</loyalty>
+      <metatype>Dwarf</metatype>
       <sex>Female</sex>
       <age>Young</age>
       <contacttype>Support</contacttype>
@@ -1274,7 +1302,7 @@
       <relative />
       <notes />
       <groupname />
-      <colour>0</colour>
+      <colour>-986896</colour>
       <group>False</group>
       <family>False</family>
       <blackmail>False</blackmail>
@@ -1286,15 +1314,15 @@
     </contact>
     <contact>
       <name>Siyliunasdria</name>
-      <role>Parabotanist</role>
+      <role>Go-Ganger</role>
       <location>"Selee"</location>
       <connection>1</connection>
       <loyalty>3</loyalty>
-      <metatype>Pixie</metatype>
+      <metatype>Elf</metatype>
       <sex>Unknown</sex>
       <age>Unknown</age>
       <contacttype>Personal Favors</contacttype>
-      <preferredpayment>Barter (Profession Items)</preferredpayment>
+      <preferredpayment>Barter (Hobby/Vice Items)</preferredpayment>
       <hobbiesvice>Nothing of Interest</hobbiesvice>
       <personallife>Unknown</personallife>
       <type>Contact</type>
@@ -1302,7 +1330,7 @@
       <relative />
       <notes />
       <groupname />
-      <colour>0</colour>
+      <colour>-986896</colour>
       <group>False</group>
       <family>False</family>
       <blackmail>False</blackmail>
@@ -1497,7 +1525,7 @@
   <martialarts />
   <limitmodifiers>
     <limitmodifier>
-      <guid>93eadb85-28cd-4899-bff2-80c0fd45bf63</guid>
+      <guid>0b79ed13-f898-4757-9f2f-c819fef124c5</guid>
       <name>Vision Enhancement</name>
       <limit>Mental</limit>
       <condition>Only for Perception (Visual)</condition>
@@ -1505,7 +1533,7 @@
       <notes />
     </limitmodifier>
     <limitmodifier>
-      <guid>da9facbe-c1a2-48f9-993f-44cbbac4812f</guid>
+      <guid>457cd442-40d1-443c-8f49-b9f194953038</guid>
       <name>Vision Enhancement</name>
       <limit>Mental</limit>
       <condition>Only for Perception (Visual)</condition>
@@ -1513,7 +1541,7 @@
       <notes />
     </limitmodifier>
     <limitmodifier>
-      <guid>2c4fc290-a38d-4b2d-b217-6299fef911da</guid>
+      <guid>db75d87d-8be1-4314-b236-af85d72029c5</guid>
       <name>Vision Enhancement</name>
       <limit>Mental</limit>
       <condition>Only for Perception (Visual)</condition>
@@ -1521,7 +1549,7 @@
       <notes />
     </limitmodifier>
     <limitmodifier>
-      <guid>d91b8768-a191-483d-9ce3-ff5f45cbed0c</guid>
+      <guid>f79928a3-7771-46e4-a2a9-f552940a6d88</guid>
       <name>Mortimer of London: Argentum Coat</name>
       <limit>Social</limit>
       <condition>Must be visible</condition>
@@ -1529,7 +1557,7 @@
       <notes />
     </limitmodifier>
     <limitmodifier>
-      <guid>30a1f559-e094-4a64-9c5f-0a60113039e0</guid>
+      <guid>e77d733d-0775-4def-9857-bdf7bf2e505d</guid>
       <name>Ballistic Mask</name>
       <limit>Social</limit>
       <condition>Only for Intimidation, Must be visible</condition>
@@ -2172,56 +2200,6 @@
       <id>55247bdc-c313-4614-ae15-5012308096ff</id>
     </quality>
     <quality>
-      <guid>b6f1ac77-f655-4cba-9102-91983ebf3795</guid>
-      <name>Friends in High Places</name>
-      <extra />
-      <bp>8</bp>
-      <implemented>True</implemented>
-      <contributetolimit>True</contributetolimit>
-      <doublecareer>True</doublecareer>
-      <canbuywithspellpoints>False</canbuywithspellpoints>
-      <metagenetic>False</metagenetic>
-      <print>True</print>
-      <qualitytype>Positive</qualitytype>
-      <qualitysource>Selected</qualitysource>
-      <mutant>False</mutant>
-      <source>RF</source>
-      <page>147</page>
-      <sourcename />
-      <bonus>
-        <friendsinhighplaces />
-      </bonus>
-      <firstlevelbonus>
-      </firstlevelbonus>
-      <notes />
-      <id>e07fc29c-55cc-46b3-af56-3b1de76f0a89</id>
-    </quality>
-    <quality>
-      <guid>057c75bd-eba7-43f7-ae9e-af67abf4843e</guid>
-      <name>Gremlins</name>
-      <extra />
-      <bp>-4</bp>
-      <implemented>True</implemented>
-      <contributetolimit>True</contributetolimit>
-      <doublecareer>True</doublecareer>
-      <canbuywithspellpoints>False</canbuywithspellpoints>
-      <metagenetic>False</metagenetic>
-      <print>True</print>
-      <qualitytype>Negative</qualitytype>
-      <qualitysource>Selected</qualitysource>
-      <mutant>False</mutant>
-      <source>SR5</source>
-      <page>81</page>
-      <sourcename />
-      <bonus>
-      </bonus>
-      <firstlevelbonus>
-        <notoriety>1</notoriety>
-      </firstlevelbonus>
-      <notes />
-      <id>de12b672-f60a-486d-85f6-b94a80a058da</id>
-    </quality>
-    <quality>
       <guid>6ebe0d25-7977-424b-a6b3-0a230f8d11dc</guid>
       <name>Exceptional Attribute</name>
       <extra>CHA</extra>
@@ -2277,55 +2255,6 @@
       <id>d6843e67-0837-4353-a5db-f4c320560ddb</id>
     </quality>
     <quality>
-      <guid>80780161-3e77-4a04-9b93-a16e10d8422b</guid>
-      <name>Too Pretty To Hit</name>
-      <extra />
-      <bp>3</bp>
-      <implemented>True</implemented>
-      <contributetolimit>True</contributetolimit>
-      <doublecareer>True</doublecareer>
-      <canbuywithspellpoints>False</canbuywithspellpoints>
-      <metagenetic>False</metagenetic>
-      <print>True</print>
-      <qualitytype>Positive</qualitytype>
-      <qualitysource>Selected</qualitysource>
-      <mutant>False</mutant>
-      <source>RG</source>
-      <page>127</page>
-      <sourcename />
-      <bonus>
-      </bonus>
-      <firstlevelbonus>
-      </firstlevelbonus>
-      <notes>+CHA for full defense instead of WIL</notes>
-      <id>0c23861e-36d1-4454-b327-0d8118d02d60</id>
-    </quality>
-    <quality>
-      <guid>de69c8f4-4d8a-459a-9dda-50cfe41070ab</guid>
-      <name>Vendetta</name>
-      <extra>Find Out Who Killed My Daughter, Kill Them Back</extra>
-      <bp>-7</bp>
-      <implemented>True</implemented>
-      <contributetolimit>True</contributetolimit>
-      <doublecareer>True</doublecareer>
-      <canbuywithspellpoints>False</canbuywithspellpoints>
-      <metagenetic>False</metagenetic>
-      <print>True</print>
-      <qualitytype>Negative</qualitytype>
-      <qualitysource>Selected</qualitysource>
-      <mutant>False</mutant>
-      <source>RF</source>
-      <page>159</page>
-      <sourcename />
-      <bonus>
-        <selecttext />
-      </bonus>
-      <firstlevelbonus>
-      </firstlevelbonus>
-      <notes />
-      <id>34965554-9252-4b37-b40b-c904e8034d03</id>
-    </quality>
-    <quality>
       <guid>5ef3b178-b1c0-40a3-ad39-5aaf55409300</guid>
       <name>SINner (National)</name>
       <extra>Michael Flint</extra>
@@ -2349,6 +2278,80 @@
       </firstlevelbonus>
       <notes />
       <id>9ac85feb-ae1e-4996-8514-3570d411e1d5</id>
+    </quality>
+    <quality>
+      <guid>003280a7-e932-48f7-8021-47b74d7242a2</guid>
+      <name>First Impression</name>
+      <extra />
+      <bp>11</bp>
+      <implemented>True</implemented>
+      <contributetolimit>True</contributetolimit>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenetic>False</metagenetic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>SR5</source>
+      <page>74</page>
+      <sourcename />
+      <bonus>
+        <notoriety>-1</notoriety>
+      </bonus>
+      <firstlevelbonus>
+      </firstlevelbonus>
+      <notes>+2 Dicepool for Social Tests during first Meeting</notes>
+      <id>9f25cc0a-c47c-49dd-953c-8fe60628bae8</id>
+    </quality>
+    <quality>
+      <guid>baffecea-6126-4f07-88cf-ae38d4edf2d5</guid>
+      <name>Creature of Comfort (Middle)</name>
+      <extra />
+      <bp>-10</bp>
+      <implemented>True</implemented>
+      <contributetolimit>True</contributetolimit>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenetic>False</metagenetic>
+      <print>True</print>
+      <qualitytype>Negative</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>RF</source>
+      <page>153</page>
+      <sourcename />
+      <bonus>
+      </bonus>
+      <firstlevelbonus>
+      </firstlevelbonus>
+      <notes />
+      <id>cf66af29-b4ff-4931-bc0b-5c5b6006e978</id>
+    </quality>
+    <quality>
+      <guid>8b5c8f31-ce3e-4d21-8360-ab3d72d2e2a1</guid>
+      <name>Records on File</name>
+      <extra>Ares</extra>
+      <bp>-1</bp>
+      <implemented>True</implemented>
+      <contributetolimit>True</contributetolimit>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenetic>False</metagenetic>
+      <print>True</print>
+      <qualitytype>Negative</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>RF</source>
+      <page>158</page>
+      <sourcename />
+      <bonus>
+        <selecttext />
+      </bonus>
+      <firstlevelbonus>
+      </firstlevelbonus>
+      <notes />
+      <id>ce01db25-465b-4d13-b091-055496f3a5c4</id>
     </quality>
   </qualities>
   <lifestyles>
@@ -5145,52 +5148,6 @@
     </improvement>
     <improvement>
       <target />
-      <improvedname />
-      <sourcename>b6f1ac77-f655-4cba-9102-91983ebf3795</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>FriendsInHighPlaces</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>False</addtorating>
-      <enabled>True</enabled>
-      <order>0</order>
-      <notes />
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>057c75bd-eba7-43f7-ae9e-af67abf4843e</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Notoriety</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>False</addtorating>
-      <enabled>True</enabled>
-      <order>0</order>
-      <notes />
-    </improvement>
-    <improvement>
-      <target />
       <improvedname>Public Grid</improvedname>
       <sourcename>9528753b-b81c-4c77-95e3-f61f96cdcff7</sourcename>
       <min>0</min>
@@ -5239,29 +5196,6 @@
       <target />
       <improvedname>Fae</improvedname>
       <sourcename>1c1e9209-ebb5-47ff-87a2-f963e999b09e</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Quality</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>False</addtorating>
-      <enabled>True</enabled>
-      <order>0</order>
-      <notes />
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Find Out Who Killed My Daughter, Kill Them Back</improvedname>
-      <sourcename>de69c8f4-4d8a-459a-9dda-50cfe41070ab</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
@@ -5831,6 +5765,52 @@
       <condition />
       <improvementttype>Skill</improvementttype>
       <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>003280a7-e932-48f7-8021-47b74d7242a2</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>-1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Notoriety</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Ares</improvedname>
+      <sourcename>8b5c8f31-ce3e-4d21-8360-ab3d72d2e2a1</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Quality</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
